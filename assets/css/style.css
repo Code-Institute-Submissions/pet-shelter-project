@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700");
+
 /* ------ set clean elements styling by removing default margins and paddings ----- */
 * {
   margin: 0;
@@ -11,6 +13,7 @@ html {
 }
 
 body {
+  font-family: "Montserrat", sans-serif;
   font-size: 1.6rem;
   background-color: rgb(245, 244, 233);
 }
@@ -19,7 +22,38 @@ body {
 
 .nav-container {
   background-color: rgb(0, 218, 116);
-  height: 10vh;
+}
+
+#logo {
+  color: rgb(245, 244, 233);
+}
+
+nav {
+  width: 90%;
+  margin: auto;
+  min-height: 60px;
+  padding: 5px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.logo-nav {
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: inline-flex;
+}
+
+.nav-link {
+  margin-left: 30px;
+  text-decoration: none;
+  list-style: none;
+  color: rgb(245, 244, 233);
 }
 
 /* ----- main ----- */
