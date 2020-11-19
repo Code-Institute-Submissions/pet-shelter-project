@@ -1,0 +1,35 @@
+/* ------ set clean elements styling by removing default margins and paddings ----- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------ set easy unit conversion for REM font size (1 REM = 10px) that still allows font scaling in browser ----- */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: rgb(245, 244, 233);
+}
+
+/* ----- navbar ----- */
+
+.nav-container {
+  background-color: rgb(0, 218, 116);
+  height: 10vh;
+}
+
+/* ----- main ----- */
+
+main {
+  height: 70vh;
+}
+
+/* ----- footer ----- */
+footer {
+  background-color: rgb(27, 35, 61);
+  height: 20vh;
+}
