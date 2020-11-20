@@ -56,6 +56,26 @@ nav {
   color: rgb(245, 244, 233);
 }
 
+.nav-link:hover {
+  border-bottom: 3px solid rgb(245, 244, 233);
+}
+
+.active {
+  border-bottom: 3px solid rgb(245, 244, 233);
+}
+
+.nav-contact {
+  color: rgb(245, 244, 233);
+  background-color: rgb(27, 35, 61);
+  padding: 0.6rem;
+  border-radius: 8px;
+}
+
+.nav-contact:hover {
+  border-bottom: none;
+  background-color: rgba(27, 35, 61, 0.8);
+}
+
 /* ----- main ----- */
 
 main {
