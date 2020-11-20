@@ -85,5 +85,82 @@ main {
 /* ----- footer ----- */
 footer {
   background-color: rgb(27, 35, 61);
-  height: 20vh;
+}
+
+.footer-container {
+  width: 90%;
+  margin: auto;
+  min-height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px 15px 0px;
+}
+
+.footer-left,
+.footer-middle,
+.footer-middle-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-left,
+.footer-left-header,
+.footer-left-content {
+  text-align: left;
+}
+
+.footer-left-header,
+.footer-middle-header,
+.footer-right-header {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: rgb(0, 218, 116);
+  text-transform: uppercase;
+}
+
+.footer-left-content {
+  white-space: pre-line;
+  color: rgb(245, 244, 233);
+  line-height: 2.3rem;
+}
+
+.footer-middle-content a {
+  text-decoration: none;
+  list-style: none;
+  color: rgb(245, 244, 233);
+  line-height: 2.3rem;
+}
+
+.footer-middle-content a:hover {
+  color: rgba(245, 244, 233, 0.5);
+}
+
+.footer-right-header {
+  text-align: center;
+}
+
+i {
+  color: rgb(245, 244, 233);
+  padding: 10px;
+  font-size: 36px;
+  text-align: center;
+  padding-left: 8px;
+  padding-bottom: 15px;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+
+i:hover {
+  color: rgba(245, 244, 233, 0.5);
+}
+
+.footer-disclaimer {
+  color: rgb(0, 218, 116);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: italic;
+  padding: 10px 0px 15px 0px;
 }
