@@ -78,8 +78,31 @@ nav {
 
 /* ----- main ----- */
 
-main {
-  height: 70vh;
+.main-container-frontpage {
+  width: 90%;
+  margin: auto;
+  min-height: 75vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.frontpage-part-one {
+  background-color: aqua;
+}
+
+.frontpage-part-two {
+  background-color: greenyellow;
+}
+
+.frontpage-part-three {
+  background-color: magenta;
+}
+
+.frontpage-part-four {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: crimson;
 }
 
 /* ----- footer ----- */
