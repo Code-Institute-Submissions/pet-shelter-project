@@ -76,20 +76,42 @@ nav {
   background-color: rgba(27, 35, 61, 0.8);
 }
 
-/* ----- main ----- */
+/* ----- main frontpage ----- */
 
 .main-container-frontpage {
+  color: rgb(27, 35, 61);
   width: 90%;
   margin: auto;
   min-height: 75vh;
+  margin-top: 40px;
+  margin-bottom: 40px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "main-one main-two"
+    "main-three main-four";
+  column-gap: 4rem;
+  row-gap: 2rem;
 }
+
+/* ---- part one of the frontpage ----- */
 
 .frontpage-part-one {
   background-color: aqua;
 }
+
+.frontpage-part-one h1 {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.frontpage-part-one p {
+  padding: 0 5rem;
+  text-align: center;
+}
+
+/* ---- part two & three of the frontpage ----- */
 
 .frontpage-part-two {
   background-color: greenyellow;
@@ -99,10 +121,55 @@ nav {
   background-color: magenta;
 }
 
+/* ---- credits #1 - youtube channel: dcode ---- */
+.dog-01,
+.cat-01 {
+  min-height: 180px;
+  max-height: 360px;
+  min-width: 235px;
+  max-width: 470px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.frontpage-part-two,
+.frontpage-part-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ---- part four of the frontpage ----- */
+
 .frontpage-part-four {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  column-gap: 4rem;
   background-color: crimson;
+}
+
+.frontpage-four-left h2 {
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.frontpage-four-left p {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  text-align: center;
+}
+
+.frontpage-four-right h2 {
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.frontpage-four-right p {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  text-align: center;
 }
 
 /* ----- footer ----- */

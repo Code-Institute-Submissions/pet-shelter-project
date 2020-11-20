@@ -194,7 +194,7 @@ placeholder text
 
 ### Code
 
-placeholder text
+#1: Used [this video](https://www.youtube.com/watch?v=gj4zoaigSqI) by Youtube channel 'dcode' to maintain aspect ratio on images by using object-fit in CSS.
 
 ### Text
 
