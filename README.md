@@ -118,15 +118,17 @@ To see the wireframes in PDF click [here](wireframes/pet-shelter-wireframes.pdf)
 
 #### Colours
 
-TBD
+My plan was to use green, beige/off-white and dark blue/black colours for the website. I tried several different variations and settled on the ones shown in the image below. The contrast between them is pretty great, which ensures that everything is clearly readable.
+
+![Colour palette](wireframes/colour-palette.png)
 
 #### Typography
 
-TBD
+I'm currently using the font-style 'Montserrat' from the Google Fonts library throughout the website. It just looks very clean and readable in my opinion.
 
 #### Uniformity
 
-placeholder text
+To keep the website looking uniform I'm trying to making sure that all related contents throughout the website are consistent in font size and styling. The positioning of elements should be consistent in height, padding and spacing. I'm also using either grid, flexbox or both to present the content in a logical order.
 
 **_[Back to top](#contents)_**
 
@@ -202,7 +204,7 @@ placeholder text
 
 ### Media
 
-placeholder text
+Used https://coolors.co/ to create an image of my colour palette.
 
 ### Acknowledgements
 
