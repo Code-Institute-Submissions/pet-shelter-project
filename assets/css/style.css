@@ -150,6 +150,50 @@ nav {
   text-align: center;
 }
 
+/* ----- main adoption page ----- */
+
+.main-container-adopt {
+  color: #1b233d;
+  width: 90%;
+  margin: auto;
+  min-height: 65vh;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* ----- main let go page ----- */
+
+.main-container-let-go {
+  color: #1b233d;
+  width: 90%;
+  margin: auto;
+  min-height: 65vh;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* ----- main about us page ----- */
+
+.main-container-about {
+  color: #1b233d;
+  width: 90%;
+  margin: auto;
+  min-height: 65vh;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* ----- main contact form page ----- */
+
+.main-container-contact {
+  color: #1b233d;
+  width: 90%;
+  margin: auto;
+  min-height: 65vh;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 /* ----- footer ----- */
 footer {
   background-color: #1b233d;
