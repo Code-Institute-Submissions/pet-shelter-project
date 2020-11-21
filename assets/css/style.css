@@ -60,10 +60,6 @@ nav {
   border-bottom: 3px solid #f5f4e9;
 }
 
-.active {
-  border-bottom: 3px solid #f5f4e9;
-}
-
 .nav-contact {
   color: #f5f4e9;
   background-color: #1b233d;
@@ -74,6 +70,10 @@ nav {
 .nav-contact:hover {
   border-bottom: none;
   background-color: #1b233dcc;
+}
+
+.active-page {
+  border-bottom: 3px solid #f5f4e9;
 }
 
 /* ----- main frontpage ----- */
