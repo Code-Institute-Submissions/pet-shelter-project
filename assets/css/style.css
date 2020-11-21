@@ -15,17 +15,17 @@ html {
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 1.6rem;
-  background-color: rgb(245, 244, 233);
+  background-color: #f5f4e9;
 }
 
 /* ----- navbar ----- */
 
 .nav-container {
-  background-color: rgb(0, 218, 116);
+  background-color: #00da74;
 }
 
 #logo {
-  color: rgb(245, 244, 233);
+  color: #f5f4e9;
 }
 
 nav {
@@ -53,33 +53,33 @@ nav {
   margin-left: 30px;
   text-decoration: none;
   list-style: none;
-  color: rgb(245, 244, 233);
+  color: #f5f4e9;
 }
 
 .nav-link:hover {
-  border-bottom: 3px solid rgb(245, 244, 233);
+  border-bottom: 3px solid #f5f4e9;
 }
 
 .active {
-  border-bottom: 3px solid rgb(245, 244, 233);
+  border-bottom: 3px solid #f5f4e9;
 }
 
 .nav-contact {
-  color: rgb(245, 244, 233);
-  background-color: rgb(27, 35, 61);
+  color: #f5f4e9;
+  background-color: #1b233d;
   padding: 0.6rem;
   border-radius: 8px;
 }
 
 .nav-contact:hover {
   border-bottom: none;
-  background-color: rgba(27, 35, 61, 0.8);
+  background-color: #1b233dcc;
 }
 
 /* ----- main frontpage ----- */
 
 .main-container-frontpage {
-  color: rgb(27, 35, 61);
+  color: #1b233d;
   width: 90%;
   margin: auto;
   min-height: 75vh;
@@ -152,7 +152,7 @@ nav {
 
 /* ----- footer ----- */
 footer {
-  background-color: rgb(27, 35, 61);
+  background-color: #1b233d;
 }
 
 .footer-container {
@@ -182,25 +182,25 @@ footer {
 .footer-right-header {
   font-weight: bold;
   margin-bottom: 10px;
-  color: rgb(0, 218, 116);
+  color: #00da74;
   text-transform: uppercase;
 }
 
 .footer-left-content {
   white-space: pre-line;
-  color: rgb(245, 244, 233);
+  color: #f5f4e9;
   line-height: 2.3rem;
 }
 
 .footer-middle-content a {
   text-decoration: none;
   list-style: none;
-  color: rgb(245, 244, 233);
+  color: #f5f4e9;
   line-height: 2.3rem;
 }
 
 .footer-middle-content a:hover {
-  color: rgba(245, 244, 233, 0.5);
+  color: #f5f4e980;
 }
 
 .footer-right-header {
@@ -208,7 +208,7 @@ footer {
 }
 
 i {
-  color: rgb(245, 244, 233);
+  color: #f5f4e9;
   padding: 10px;
   font-size: 36px;
   text-align: center;
@@ -221,7 +221,7 @@ i {
 }
 
 .footer-right-content i:hover {
-  color: rgba(245, 244, 233, 0.5);
+  color: #f5f4e980;
 }
 
 #phone-icon {
@@ -230,7 +230,7 @@ i {
 }
 
 .footer-disclaimer {
-  color: rgb(0, 218, 116);
+  color: #00da74;
   text-align: center;
   font-size: 1rem;
   font-weight: bold;
