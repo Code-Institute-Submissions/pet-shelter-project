@@ -196,7 +196,9 @@ placeholder text
 
 ### Code
 
-#1: Used [this video](https://www.youtube.com/watch?v=gj4zoaigSqI) by Youtube channel 'dcode' to maintain aspect ratio on images by using object-fit in CSS.
+#1: Used [this video](https://www.youtube.com/watch?v=gj4zoaigSqI) by Youtube channel 'dcode' to maintain aspect ratio on images by using 'object-fit' in CSS.
+
+#2: Referenced [this online explanation](https://codetheweb.blog/css-advanced-background-images/) from https://codetheweb.blog/ about background image manipulation to help with the background image positioning on the about us page, especially the 'background-position-x' property helped me achieve what I was looking for.
 
 ### Text
 

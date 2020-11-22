@@ -211,9 +211,51 @@ nav {
   color: #1b233d;
   width: 90%;
   margin: auto;
-  min-height: 65vh;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  min-height: 75vh;
+  position: relative;
+}
+
+.main-container-about::after {
+  /* --- https://css-tricks.com/snippets/css/transparent-background-images/ credits #3 --- */
+  content: "";
+  background-image: url("../img/about-background.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-position-x: 80%; /* --- credits #2 --- */
+  opacity: 0.35;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.about-page-part-one {
+  color: #1b233d;
+  background-color: #f5f4e9b4;
+  border-radius: 10px;
+  top: 50%;
+  left: 25%;
+  position: absolute;
+  transform: translate(
+    -50%,
+    -50%
+  ); /* --- credits https://stackoverflow.com/questions/4240015/css-text-in-center-of-background-image */
+  max-width: 500px;
+}
+
+.about-page-part-one h1 {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+
+.about-page-part-one p {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 500;
+  padding: 0 10px 10px 10px;
 }
 
 /* ----- main contact form page ----- */
