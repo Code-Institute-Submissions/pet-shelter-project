@@ -213,6 +213,8 @@ nav {
   margin: auto;
   min-height: 75vh;
   position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .main-container-about::after {
@@ -232,17 +234,11 @@ nav {
 }
 
 .about-page-part-one {
+  max-width: 500px;
   color: #1b233d;
   background-color: #f5f4e9b4;
   border-radius: 10px;
-  top: 50%;
-  left: 25%;
-  position: absolute;
-  transform: translate(
-    -50%,
-    -50%
-  ); /* --- credits https://stackoverflow.com/questions/4240015/css-text-in-center-of-background-image */
-  max-width: 500px;
+  margin-left: 200px;
 }
 
 .about-page-part-one h1 {
