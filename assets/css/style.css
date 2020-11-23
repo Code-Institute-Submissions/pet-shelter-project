@@ -309,6 +309,9 @@ nav {
 }
 
 .contact-form-container {
+  background-color: #00da74;
+  border: 2px #1b233d solid;
+  border-radius: 10px;
   width: 800px;
   height: 600px;
   display: flex;
@@ -342,7 +345,7 @@ form textarea {
   margin-bottom: 10px;
   width: 100%;
   border-radius: 5px;
-  border: 2px #00db75 solid;
+  border: 2px #1b233d solid;
 }
 
 form input,
