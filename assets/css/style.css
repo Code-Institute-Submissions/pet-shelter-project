@@ -163,6 +163,140 @@ nav {
   min-height: 65vh;
   margin-top: 40px;
   margin-bottom: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#dog-circle-container {
+  /* --- credits #5 (?) Love running project --- */
+  background-color: #00da74;
+  width: 225px;
+  height: 225px;
+  padding: 6px;
+  border: #1b233d 2px solid;
+  border-radius: 50%;
+  margin: 0 auto 50px auto;
+}
+
+#dog-circle-img {
+  /* --- credits #5 (?) Love running project --- */
+  background: url(/assets/img/dog-02.jpg) no-repeat center center;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  size: auto;
+  background-size: cover;
+  margin: auto;
+}
+
+.adopt-dog-text {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: fuchsia;
+}
+
+.adopt-dog-text h2,
+p {
+  text-align: center;
+}
+
+.adopt-dog-text h2 {
+  margin-bottom: 8px;
+  padding-top: 10px;
+}
+
+.adopt-dog-text p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#cat-circle-container {
+  /* --- credits #5 (?) Love running project --- */
+  background-color: #00da74;
+  width: 225px;
+  height: 225px;
+  padding: 6px;
+  border: #1b233d 2px solid;
+  border-radius: 50%;
+  margin: 0 auto 50px auto;
+}
+
+#cat-circle-img {
+  /* --- credits #5 (?) Love running project --- */
+  background: url(/assets/img/cat-02.jpg) no-repeat center center;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  size: auto;
+  background-size: cover;
+  margin: auto;
+}
+
+.adopt-cat-text {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: fuchsia;
+}
+
+.adopt-cat-text h2,
+p {
+  text-align: center;
+}
+
+.adopt-cat-text h2 {
+  margin-bottom: 8px;
+  padding-top: 10px;
+}
+
+.adopt-cat-text p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#all-circle-container {
+  /* --- credits #5 (?) Love running project --- */
+  background-color: #00da74;
+  width: 225px;
+  height: 225px;
+  padding: 6px;
+  border: #1b233d 2px solid;
+  border-radius: 50%;
+  margin: 0 auto 50px auto;
+}
+
+#all-circle-img {
+  /* --- credits #5 (?) Love running project --- */
+  background: url(/assets/img/dog-and-cat.jpg) no-repeat center center;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  size: auto;
+  background-size: cover;
+  margin: auto;
+}
+
+.adopt-all-text {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: fuchsia;
+}
+
+.adopt-all-text h2,
+p {
+  text-align: center;
+}
+
+.adopt-all-text h2 {
+  margin-bottom: 8px;
+  padding-top: 10px;
+}
+
+.adopt-all-text p {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /* ----- main dog gallery page ----- */
@@ -300,7 +434,7 @@ nav {
 /* ----- main contact form page ----- */
 
 #main-contact {
-  /* --- credits https://www.w3docs.com/snippets/html/how-to-make-a-div-fill-the-height-of-the-remaining-space.html */
+  /* --- credits #4(?) https://www.w3docs.com/snippets/html/how-to-make-a-div-fill-the-height-of-the-remaining-space.html */
   flex: 1;
   display: flex;
 }
