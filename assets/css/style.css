@@ -193,7 +193,8 @@ nav {
   width: 400px;
   height: 300px;
   border-radius: 10px;
-  background-color: fuchsia;
+  border: #1b233d 3px solid;
+  box-shadow: 2px 3px 0px 0px #1b233dd2;
 }
 
 .adopt-dog-text h2,
@@ -209,6 +210,7 @@ p {
 .adopt-dog-text p {
   padding-left: 10px;
   padding-right: 10px;
+  font-weight: 500;
 }
 
 #cat-circle-container {
@@ -237,7 +239,8 @@ p {
   width: 400px;
   height: 300px;
   border-radius: 10px;
-  background-color: fuchsia;
+  border: #1b233d 3px solid;
+  box-shadow: 2px 3px 0px 0px #1b233dd2;
 }
 
 .adopt-cat-text h2,
@@ -253,6 +256,7 @@ p {
 .adopt-cat-text p {
   padding-left: 10px;
   padding-right: 10px;
+  font-weight: 500;
 }
 
 #all-circle-container {
@@ -281,7 +285,8 @@ p {
   width: 400px;
   height: 300px;
   border-radius: 10px;
-  background-color: fuchsia;
+  border: #1b233d 3px solid;
+  box-shadow: 2px 3px 0px 0px #1b233dd2;
 }
 
 .adopt-all-text h2,
@@ -297,6 +302,7 @@ p {
 .adopt-all-text p {
   padding-left: 10px;
   padding-right: 10px;
+  font-weight: 500;
 }
 
 /* ----- main dog gallery page ----- */
