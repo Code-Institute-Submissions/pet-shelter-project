@@ -313,6 +313,26 @@ p {
   justify-content: center;
 }
 
+.adopt-dog-card,
+.adopt-cat-card,
+.adopt-all-card {
+  transition: 0.4s ease;
+  cursor: pointer;
+}
+
+.adopt-dog-card:hover,
+.adopt-cat-card:hover,
+.adopt-all-card:hover {
+  transform: translate(-5px, -15px);
+  /* --- credit https://www.youtube.com/watch?v=cwC1qdPWBKo */
+  box-shadow: 1px 1px 0px 0px #1b233dd2;
+}
+
+.card-links {
+  text-decoration: none;
+  color: #1b233d;
+}
+
 /* ----- main dog gallery page ----- */
 
 .main-container-dog-gallery {
