@@ -189,7 +189,7 @@ nav {
   margin: auto;
 }
 
-.adopt-dog-text {
+.adopt-dog-card {
   width: 400px;
   height: 300px;
   border-radius: 10px;
@@ -197,17 +197,17 @@ nav {
   box-shadow: 2px 3px 0px 0px #1b233dd2;
 }
 
-.adopt-dog-text h2,
+.adopt-dog-card h2,
 p {
   text-align: center;
 }
 
-.adopt-dog-text h2 {
+.adopt-dog-card h2 {
   margin-bottom: 8px;
   padding-top: 10px;
 }
 
-.adopt-dog-text p {
+.adopt-dog-card p {
   padding-left: 10px;
   padding-right: 10px;
   font-weight: 500;
@@ -235,7 +235,7 @@ p {
   margin: auto;
 }
 
-.adopt-cat-text {
+.adopt-cat-card {
   width: 400px;
   height: 300px;
   border-radius: 10px;
@@ -243,17 +243,17 @@ p {
   box-shadow: 2px 3px 0px 0px #1b233dd2;
 }
 
-.adopt-cat-text h2,
+.adopt-cat-card h2,
 p {
   text-align: center;
 }
 
-.adopt-cat-text h2 {
+.adopt-cat-card h2 {
   margin-bottom: 8px;
   padding-top: 10px;
 }
 
-.adopt-cat-text p {
+.adopt-cat-card p {
   padding-left: 10px;
   padding-right: 10px;
   font-weight: 500;
@@ -281,7 +281,7 @@ p {
   margin: auto;
 }
 
-.adopt-all-text {
+.adopt-all-card {
   width: 400px;
   height: 300px;
   border-radius: 10px;
@@ -289,20 +289,28 @@ p {
   box-shadow: 2px 3px 0px 0px #1b233dd2;
 }
 
-.adopt-all-text h2,
+.adopt-all-card h2,
 p {
   text-align: center;
 }
 
-.adopt-all-text h2 {
+.adopt-all-card h2 {
   margin-bottom: 8px;
   padding-top: 10px;
 }
 
-.adopt-all-text p {
+.adopt-all-card p {
   padding-left: 10px;
   padding-right: 10px;
   font-weight: 500;
+}
+
+.adopt-dog,
+.adopt-cat,
+.adopt-all {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* ----- main dog gallery page ----- */
