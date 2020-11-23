@@ -342,6 +342,41 @@ p {
   min-height: 65vh;
   margin-top: 40px;
   margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.pet-cards {
+  background-color: #00da74;
+  width: 300px;
+  height: 240px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.pet-cards-img {
+  height: 60%;
+  width: 100%;
+  object-fit: cover;
+  padding-bottom: 8px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.pet-cards h4 {
+  padding-bottom: 8px;
+}
+
+.pet-cards p {
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 /* ----- main cat gallery page ----- */
