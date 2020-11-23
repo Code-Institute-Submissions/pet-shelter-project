@@ -16,6 +16,10 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 1.6rem;
   background-color: #f5f4e9;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  min-height: 100vh;
 }
 
 /* ----- navbar ----- */
@@ -294,6 +298,12 @@ nav {
 }
 
 /* ----- main contact form page ----- */
+
+#main-contact {
+  /* --- credits https://www.w3docs.com/snippets/html/how-to-make-a-div-fill-the-height-of-the-remaining-space.html */
+  flex: 1;
+  display: flex;
+}
 
 .main-container-contact {
   color: #1b233d;
