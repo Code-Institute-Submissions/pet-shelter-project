@@ -351,7 +351,7 @@ p {
 .pet-cards {
   background-color: #00da74;
   width: 300px;
-  height: 240px;
+  height: 260px;
   margin-right: 100px;
   margin-bottom: 100px;
   border-radius: 5px;
@@ -363,7 +363,7 @@ p {
 }
 
 .pet-cards-img {
-  height: 60%;
+  height: 65%;
   width: 100%;
   object-fit: cover;
   padding-bottom: 8px;
@@ -372,11 +372,13 @@ p {
 
 .pet-cards h4 {
   padding-bottom: 8px;
+  font-size: 1.6rem;
 }
 
 .pet-cards p {
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 6px;
+  padding-right: 6px;
+  font-weight: 500;
 }
 
 /* ----- main cat gallery page ----- */
