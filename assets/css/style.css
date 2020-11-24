@@ -154,6 +154,14 @@ nav {
   text-align: center;
 }
 
+.frontpage-four-left,
+.frontpage-four-right {
+  width: auto;
+  height: auto;
+  border: 2px #1b233d solid;
+  border-radius: 10px;
+}
+
 /* ----- main adoption page ----- */
 
 .main-container-adopt {
