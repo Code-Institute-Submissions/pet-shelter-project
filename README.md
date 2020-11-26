@@ -72,15 +72,15 @@ The goal in regards to users is to provide them a website to allow for easy acce
 
 #### User stories
 
-- As **someone looking to adopt a pet**, I would like **to see an overview of all pets that are available for adoption**, so that **I don't have to travel there to find out if there is anything available that I'm looking for**.
+- As a **visitor**, I would like **to see an overview of all pets that are available for adoption**, so that **I don't have to travel there to find out if there is anything available that I'm looking for**.
 
-- As **someone looking to adopt a pet**, I would like **to see images of all pets that are available for adoption**, so that **I can decide if it's worth visiting the shelter**.
+- As a **visitor**, I would like **to see images of all pets that are available for adoption**, so that **I can decide if it's worth visiting the shelter**.
 
-- As **someone looking to adopt/let go of a pet**, I would like **an easy to fill in contact form**, so that **I can contact the pet shelter to get answers to any questions that I have**.
+- As a **visitor**, I would like **an easy to fill in contact form**, so that **I can contact the pet shelter to get answers to any questions that I have**.
 
-- As **someone looking to adopt/let go of a pet**, I would like **to know the pet shelters' address information**, so that **I know how to travel there**.
+- As a **visitor**, I would like **to know the pet shelters' address information**, so that **I know where to travel to**.
 
-- As **someone looking to let go of a pet**, I would like **clear and concise information about letting go of a pet**, so that **I can get a good understanding of what the process is like**.
+- As a **visitor**, I would like **clear and concise information about letting go of a pet**, so that **I can get a good understanding of what the process is like**.
 
 - As a **site owner**, I would like our website **to have an intuitive navigation system**, so that **visitors can easily access all available information**.
 
@@ -138,11 +138,45 @@ To keep the website looking uniform I'm trying to making sure that all related c
 
 ### Existing features
 
-placeholder text
+#### General features
+
+**Navigation bar**:
+Every page will have a navigation bar that will always stay visible at the top of the screen. The navigation bar has a clickable logo on the left side that returns the user to the homepage. On the right side it has internal links to the adoption page, letting go page, about us page and the contact page. It will be fully responsive in the sense that it will shrink on smaller screen sizes and eventually collapse into a so called hamburger menu.
+
+**Footer**:
+Every page will have a footer that is visible when the user is at the bottom of the page. On the left side it contains address information and a phone number. In the middle it has internal links to pages related to pets, most important are the direct links related to adopting a pet, since they take the user directly to them instead of having to go through the general adoption page. On the right side are social media icons that could have taken visitors to the external social media platforms if this wasn't a fictional project. The footer will be fully responsive, depending on the users' screen size, content will change from a horizontal to a vertical alignment.
+
+#### Page specific features
+
+**Homepage**:
+The homepage provides the visitor with some general information about the pet shelter. It also includes some introductory information regarding both pet adoption and letting go of a pet as well as directions to their respective pages. Some images of pets are shown to engage the visitor. Below the main part of the homepage there is a section showing a video about why to adopt a pet to engage the visitor.
+
+**Adoption page**:
+The adoption page has images of different types of pets and below them are corresponding cards with information. The cards have an animation effect when hovered with the mouse and they are clickable, when clicked the visitor is taken to the corresponding pet adoption page.
+
+**Dog gallery page**:
+The dog gallery page provides the visitor with an overview of all dogs available for adoption. Each dog has a card that contains a photo, information and a short description of the pet.
+
+**Cat gallery page**:
+The cat gallery page provides the visitor with an overview of all cats available for adoption. Each cat has a card that contains a photo, information and a short description of the pet.
+
+**All pets gallery page**:
+The all pets gallery page provides the visitor with an overview of all pets available for adoption, so both cats and dogs in one overview. Each pet has a card that contains a photo, information and a short description of the pet.
+
+**Let go page**:
+The let go page provides the visitor with some information about letting go of a pet, it does this simply through text and there is also a background image. Inside the text is an internal link that directs the visitor to the contact page.
+
+**About us page**:
+The about us page provides the visitor with some information about the origins of the pet shelter, its mission and some additional information. It does this simply through text and there is also a background image.
+
+**Contact page**:
+The contact page allows the visitor to state their reason for inquiry and include their contact details and any additional information. This is all done through a form, which has textboxes for the name, email and phone number, while the reason for inquiry can be selected in a dropdown menu and the additional information can be provided in a text-area. The form can simply be sent to the site owner(s) by clicking the submit button below the form.
 
 ### Future features
 
-placeholder text
+- Image carousel in the pet cards, so visitors could be shown multiple pictures of available pets.
+
+- Pet cards could be made clickable, in which case a contact form would automatically fill in that the visitor would like to inquire information regarding that specific pet.
 
 **_[Back to top](#contents)_**
 

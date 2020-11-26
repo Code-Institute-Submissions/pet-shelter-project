@@ -162,6 +162,21 @@ nav {
   border-radius: 10px;
 }
 
+/* ----- section of frontpage ----- */
+
+.section-container-frontpage {
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.why-adopt-video {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
 /* ----- main adoption page ----- */
 
 .main-container-adopt {
