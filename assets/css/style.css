@@ -26,6 +26,9 @@ body {
 
 .nav-container {
   background-color: #00da74;
+  position: sticky;
+  top: 0px;
+  z-index: 5;
 }
 
 #logo {
