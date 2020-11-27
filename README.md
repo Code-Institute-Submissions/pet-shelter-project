@@ -234,6 +234,8 @@ placeholder text
 
 #2: Referenced [this online explanation](https://codetheweb.blog/css-advanced-background-images/) from https://codetheweb.blog/ about background image manipulation to help with the background image positioning on the about us page, especially the 'background-position-x' property helped me achieve what I was looking for.
 
+#? https://stackoverflow.com/questions/11488960/how-do-i-put-my-websites-logo-to-be-the-icon-image-in-browser-tabs
+
 ### Text
 
 placeholder text
