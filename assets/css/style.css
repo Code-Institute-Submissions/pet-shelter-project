@@ -17,7 +17,7 @@ body {
   font-size: 1.6rem;
   background-color: #f5f4e9;
   display: flex;
-  flex-flow: column;
+  flex-flow: column; /* --- credits #4(?) --- */
   height: 100%;
   min-height: 100vh;
 }
@@ -91,6 +91,12 @@ nav {
 }
 
 /* ----- main frontpage ----- */
+
+.main-homepage {
+  /* --- credits #4(?) https://www.w3docs.com/snippets/html/how-to-make-a-div-fill-the-height-of-the-remaining-space.html */
+  flex: 1;
+  display: flex;
+}
 
 .main-container-frontpage {
   color: #1b233d;
@@ -188,6 +194,12 @@ nav {
 }
 
 /* ----- main adoption page ----- */
+
+.main-adopt {
+  /* --- credits #4(?) https://www.w3docs.com/snippets/html/how-to-make-a-div-fill-the-height-of-the-remaining-space.html */
+  flex: 1;
+  display: flex;
+}
 
 .main-container-adopt {
   color: #1b233d;
@@ -368,6 +380,12 @@ p {
 
 /* ----- main dog gallery page ----- */
 
+.main-dog-gallery {
+  /* --- credits #4(?) https://www.w3docs.com/snippets/html/how-to-make-a-div-fill-the-height-of-the-remaining-space.html */
+  flex: 1;
+  display: flex;
+}
+
 .main-container-dog-gallery {
   color: #1b233d;
   width: 90%;
@@ -416,6 +434,12 @@ p {
 
 /* ----- main cat gallery page ----- */
 
+.main-cat-gallery {
+  /* --- credits #4(?) https://www.w3docs.com/snippets/html/how-to-make-a-div-fill-the-height-of-the-remaining-space.html */
+  flex: 1;
+  display: flex;
+}
+
 .main-container-cat-gallery {
   color: #1b233d;
   width: 90%;
@@ -431,6 +455,12 @@ p {
 
 /* ----- main pet gallery page ----- */
 
+.main-pet-gallery {
+  /* --- credits #4(?) https://www.w3docs.com/snippets/html/how-to-make-a-div-fill-the-height-of-the-remaining-space.html */
+  flex: 1;
+  display: flex;
+}
+
 .main-container-pet-gallery {
   color: #1b233d;
   width: 90%;
@@ -445,6 +475,12 @@ p {
 }
 
 /* ----- main let go page ----- */
+
+.main-let-go {
+  /* --- credits #4(?) https://www.w3docs.com/snippets/html/how-to-make-a-div-fill-the-height-of-the-remaining-space.html */
+  flex: 1;
+  display: flex;
+}
 
 .main-container-let-go {
   color: #1b233d;
@@ -495,6 +531,12 @@ p {
 }
 
 /* ----- main about us page ----- */
+
+.main-about {
+  /* --- credits #4(?) https://www.w3docs.com/snippets/html/how-to-make-a-div-fill-the-height-of-the-remaining-space.html */
+  flex: 1;
+  display: flex;
+}
 
 .main-container-about {
   color: #1b233d;
