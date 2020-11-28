@@ -707,6 +707,7 @@ i {
 
 .footer-right-content i:hover {
   color: #f5f4e980;
+  cursor: pointer;
 }
 
 #phone-icon {
