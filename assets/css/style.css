@@ -486,8 +486,6 @@ p {
   color: #1b233d;
   width: 90%;
   margin: auto;
-  min-height: 75vh;
-  position: relative;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
@@ -497,6 +495,8 @@ p {
   /* --- https://css-tricks.com/snippets/css/transparent-background-images/ credits #3 --- */
   content: "";
   background-image: url("../img/let-go.jpg");
+  margin-left: 5%;
+  margin-right: 5%;
   background-position: center center;
   background-size: cover;
   background-position-x: 0%; /* --- credits #2 --- */
@@ -542,8 +542,6 @@ p {
   color: #1b233d;
   width: 90%;
   margin: auto;
-  min-height: 75vh;
-  position: relative;
   display: flex;
   align-items: center;
 }
@@ -552,6 +550,8 @@ p {
   /* --- https://css-tricks.com/snippets/css/transparent-background-images/ credits #3 --- */
   content: "";
   background-image: url("../img/about-background.jpg");
+  margin-left: 5%;
+  margin-right: 5%;
   background-position: center center;
   background-size: cover;
   background-position-x: 80%; /* --- credits #2 --- */
