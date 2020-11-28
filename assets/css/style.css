@@ -22,7 +22,7 @@ body {
   min-height: 100vh;
 }
 
-/* ----- general side wide code ----- */
+/* ----- general site wide code ----- */
 
 .internal-links {
   text-decoration: none;
@@ -102,7 +102,6 @@ nav {
   color: #1b233d;
   width: 90%;
   margin: auto;
-  min-height: 75vh;
   margin-top: 40px;
   margin-bottom: 40px;
   display: grid;
@@ -118,14 +117,14 @@ nav {
 /* ---- part one of the frontpage ----- */
 
 .frontpage-part-one h1 {
-  font-size: 3.5rem;
+  font-size: 4rem;
   text-align: center;
-  padding-bottom: 2rem;
+  padding-bottom: 2.5rem;
 }
 
 .frontpage-part-one p {
   font-size: 2rem;
-  padding: 0 9rem;
+  padding: 0 11rem;
   text-align: justify;
 }
 
@@ -160,20 +159,19 @@ nav {
 .frontpage-four-right h2 {
   text-align: center;
   font-size: 2.7rem;
+  padding-top: 0.5rem;
   padding-bottom: 1.2rem;
 }
 
 .frontpage-four-left p,
 .frontpage-four-right p {
-  font-size: 1.8rem;
+  font-size: 2rem;
   padding: 0 2rem;
   text-align: center;
 }
 
 .frontpage-four-left,
 .frontpage-four-right {
-  width: auto;
-  height: auto;
   border: 2px #1b233d solid;
   border-radius: 10px;
 }
@@ -682,6 +680,7 @@ button {
 }
 
 /* ----- footer ----- */
+
 footer {
   background-color: #1b233d;
 }
@@ -738,7 +737,7 @@ footer {
   text-align: center;
 }
 
-i {
+.footer-right-content i {
   color: #f5f4e9;
   padding: 10px;
   font-size: 36px;
@@ -829,6 +828,15 @@ i {
 
 #popup i {
   color: #00da74;
+  padding: 10px;
+  font-size: 36px;
+  text-align: center;
+  padding-left: 8px;
+  padding-bottom: 15px;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
 }
 
 #popup h2 {
