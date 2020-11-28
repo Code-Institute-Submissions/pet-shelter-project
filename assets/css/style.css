@@ -510,24 +510,26 @@ p {
 }
 
 .let-go-page-part-one {
-  max-width: 500px;
+  max-width: 800px;
   color: #1b233d;
   background-color: #f5f4e9b4;
+  border: #1b233d 2px solid;
   border-radius: 10px;
-  margin-right: 200px;
+  margin-right: 150px;
 }
 
 .let-go-page-part-one h1 {
+  font-size: 6rem;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 15px;
 }
 
 .let-go-page-part-one p {
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   text-align: center;
   font-weight: 500;
-  padding: 0 10px 10px 10px;
+  padding: 0 10px 30px 10px;
 }
 
 /* ----- main about us page ----- */
@@ -565,24 +567,26 @@ p {
 }
 
 .about-page-part-one {
-  max-width: 500px;
+  max-width: 800px;
   color: #1b233d;
   background-color: #f5f4e9b4;
+  border: #1b233d 2px solid;
   border-radius: 10px;
-  margin-left: 200px;
+  margin-left: 150px;
 }
 
 .about-page-part-one h1 {
+  font-size: 6rem;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 15px;
 }
 
 .about-page-part-one p {
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   text-align: center;
   font-weight: 500;
-  padding: 0 10px 10px 10px;
+  padding: 0 10px 30px 10px;
 }
 
 /* ----- main contact form page ----- */
