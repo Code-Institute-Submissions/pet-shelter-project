@@ -203,14 +203,15 @@ nav {
   color: #1b233d;
   width: 90%;
   margin: auto;
-  min-height: 65vh;
   margin-top: 40px;
   margin-bottom: 40px;
   display: flex;
   justify-content: space-around;
 }
 
-#dog-circle-container {
+#dog-circle-container,
+#cat-circle-container,
+#all-circle-container {
   /* --- credits #5 (?) Love running project --- */
   background-color: #00da74;
   width: 225px;
@@ -232,41 +233,6 @@ nav {
   margin: auto;
 }
 
-.adopt-dog-card {
-  width: 400px;
-  height: 300px;
-  border-radius: 10px;
-  border: #1b233d 3px solid;
-  box-shadow: 2px 3px 0px 0px #1b233dd2;
-}
-
-.adopt-dog-card h2,
-p {
-  text-align: center;
-}
-
-.adopt-dog-card h2 {
-  margin-bottom: 8px;
-  padding-top: 10px;
-}
-
-.adopt-dog-card p {
-  padding-left: 10px;
-  padding-right: 10px;
-  font-weight: 500;
-}
-
-#cat-circle-container {
-  /* --- credits #5 (?) Love running project --- */
-  background-color: #00da74;
-  width: 225px;
-  height: 225px;
-  padding: 6px;
-  border: #1b233d 2px solid;
-  border-radius: 50%;
-  margin: 0 auto 50px auto;
-}
-
 #cat-circle-img {
   /* --- credits #5 (?) Love running project --- */
   background: url(/assets/img/cat-02.jpg) no-repeat center center;
@@ -276,41 +242,6 @@ p {
   size: auto;
   background-size: cover;
   margin: auto;
-}
-
-.adopt-cat-card {
-  width: 400px;
-  height: 300px;
-  border-radius: 10px;
-  border: #1b233d 3px solid;
-  box-shadow: 2px 3px 0px 0px #1b233dd2;
-}
-
-.adopt-cat-card h2,
-p {
-  text-align: center;
-}
-
-.adopt-cat-card h2 {
-  margin-bottom: 8px;
-  padding-top: 10px;
-}
-
-.adopt-cat-card p {
-  padding-left: 10px;
-  padding-right: 10px;
-  font-weight: 500;
-}
-
-#all-circle-container {
-  /* --- credits #5 (?) Love running project --- */
-  background-color: #00da74;
-  width: 225px;
-  height: 225px;
-  padding: 6px;
-  border: #1b233d 2px solid;
-  border-radius: 50%;
-  margin: 0 auto 50px auto;
 }
 
 #all-circle-img {
@@ -324,6 +255,8 @@ p {
   margin: auto;
 }
 
+.adopt-dog-card,
+.adopt-cat-card,
 .adopt-all-card {
   width: 400px;
   height: 300px;
@@ -332,16 +265,24 @@ p {
   box-shadow: 2px 3px 0px 0px #1b233dd2;
 }
 
+.adopt-dog-card h2,
+p,
+.adopt-cat-card h2,
+p,
 .adopt-all-card h2,
 p {
   text-align: center;
 }
 
+.adopt-dog-card h2,
+.adopt-cat-card h2,
 .adopt-all-card h2 {
   margin-bottom: 8px;
   padding-top: 10px;
 }
 
+.adopt-dog-card p,
+.adopt-cat-card p,
 .adopt-all-card p {
   padding-left: 10px;
   padding-right: 10px;
