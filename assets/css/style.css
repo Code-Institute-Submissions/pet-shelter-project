@@ -209,9 +209,7 @@ nav {
   justify-content: space-around;
 }
 
-#dog-circle-container,
-#cat-circle-container,
-#all-circle-container {
+#pet-circle-container {
   /* --- credits #5 (?) Love running project --- */
   background-color: #00da74;
   width: 225px;
@@ -255,58 +253,39 @@ nav {
   margin: auto;
 }
 
-.adopt-dog-card,
-.adopt-cat-card,
-.adopt-all-card {
+.adoption-card {
   width: 400px;
   height: 300px;
   border-radius: 10px;
   border: #1b233d 3px solid;
   box-shadow: 2px 3px 0px 0px #1b233dd2;
+  transition: 0.4s ease;
+  cursor: pointer;
 }
 
-.adopt-dog-card h2,
-p,
-.adopt-cat-card h2,
-p,
-.adopt-all-card h2,
+.adoption-card h2,
 p {
   text-align: center;
 }
 
-.adopt-dog-card h2,
-.adopt-cat-card h2,
-.adopt-all-card h2 {
+.adoption-card h2 {
   margin-bottom: 8px;
   padding-top: 10px;
 }
 
-.adopt-dog-card p,
-.adopt-cat-card p,
-.adopt-all-card p {
+.adoption-card p {
   padding-left: 10px;
   padding-right: 10px;
   font-weight: 500;
 }
 
-.adopt-dog,
-.adopt-cat,
-.adopt-all {
+.adoption-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.adopt-dog-card,
-.adopt-cat-card,
-.adopt-all-card {
-  transition: 0.4s ease;
-  cursor: pointer;
-}
-
-.adopt-dog-card:hover,
-.adopt-cat-card:hover,
-.adopt-all-card:hover {
+.adoption-card:hover {
   transform: translate(-5px, -15px);
   /* --- credit https://www.youtube.com/watch?v=cwC1qdPWBKo */
   box-shadow: 1px 1px 0px 0px #1b233dd2;
