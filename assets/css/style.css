@@ -445,11 +445,9 @@ p {
   color: #1b233d;
   width: 90%;
   margin: auto;
-  min-height: 65vh;
   margin-top: 40px;
   margin-bottom: 40px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -510,18 +508,18 @@ button {
 }
 
 .input-field::placeholder {
-  /* --- credits #4 --- */
+  /* --- credits #? https://www.w3schools.com/howto/howto_css_placeholder.asp --- */
   color: #1b233d;
   opacity: 1;
 }
 
 .input-field:-ms-input-placeholder {
-  /* --- credits #4 --- */
+  /* --- credits #? https://www.w3schools.com/howto/howto_css_placeholder.asp --- */
   color: #1b233d;
 }
 
 .input-field::-ms-input-placeholder {
-  /* --- credits #4 --- */
+  /* --- credits #? https://www.w3schools.com/howto/howto_css_placeholder.asp --- */
   color: #1b233d;
 }
 
