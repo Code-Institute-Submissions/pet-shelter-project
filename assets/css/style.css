@@ -296,19 +296,18 @@ p {
   color: #1b233d;
 }
 
-/* ----- main dog gallery page ----- */
+/* ----- pet galleries pages----- */
 
-.main-dog-gallery {
+.main-pet-gallery {
   /* --- credits #4(?) https://www.w3docs.com/snippets/html/how-to-make-a-div-fill-the-height-of-the-remaining-space.html */
   flex: 1;
   display: flex;
 }
 
-.main-container-dog-gallery {
+.main-container-pet-gallery {
   color: #1b233d;
   width: 90%;
   margin: auto;
-  min-height: 65vh;
   margin-top: 40px;
   margin-bottom: 40px;
   display: flex;
@@ -321,8 +320,7 @@ p {
   background-color: #00da74;
   width: 300px;
   height: 260px;
-  margin-right: 100px;
-  margin-bottom: 100px;
+  margin: 50px;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -348,48 +346,6 @@ p {
   padding-left: 6px;
   padding-right: 6px;
   font-weight: 500;
-}
-
-/* ----- main cat gallery page ----- */
-
-.main-cat-gallery {
-  /* --- credits #4(?) https://www.w3docs.com/snippets/html/how-to-make-a-div-fill-the-height-of-the-remaining-space.html */
-  flex: 1;
-  display: flex;
-}
-
-.main-container-cat-gallery {
-  color: #1b233d;
-  width: 90%;
-  margin: auto;
-  min-height: 65vh;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-}
-
-/* ----- main pet gallery page ----- */
-
-.main-pet-gallery {
-  /* --- credits #4(?) https://www.w3docs.com/snippets/html/how-to-make-a-div-fill-the-height-of-the-remaining-space.html */
-  flex: 1;
-  display: flex;
-}
-
-.main-container-pet-gallery {
-  color: #1b233d;
-  width: 90%;
-  margin: auto;
-  min-height: 65vh;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
 }
 
 /* ----- main let go page ----- */
