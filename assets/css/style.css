@@ -538,17 +538,9 @@ footer {
   padding: 15px 0px 15px 0px;
 }
 
-.footer-left,
-.footer-middle,
 .footer-middle-content {
   display: flex;
   flex-direction: column;
-}
-
-.footer-left,
-.footer-left-header,
-.footer-left-content {
-  text-align: left;
 }
 
 .footer-left-header,
