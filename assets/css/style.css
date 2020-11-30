@@ -718,6 +718,11 @@ footer {
     width: 100%;
   }
 
+  .nav-links li {
+    min-width: 120px;
+    border-bottom: #f5f4e9 2px solid;
+  }
+
   .nav-links.show {
     /* --- hamburger menu credits #?? --- https://www.youtube.com/watch?v=ydZc17rlR5E --- */
     display: flex;
@@ -725,22 +730,28 @@ footer {
 
   .nav-contact {
     color: #f5f4e9;
-    background-color: transparent;
+    background-color: #1b233d;
+    border-radius: 0;
   }
 
   .nav-link {
     display: block;
     padding: 10px;
+    text-align: right;
+    background-color: #1b233d;
+    margin: 0;
   }
 
   .nav-link:hover {
     border-bottom: none;
-    background-color: #1b233d;
+    background-color: #f5f4e9;
+    color: #1b233d;
   }
 
   .nav-contact:hover {
     border-bottom: none;
-    background-color: #1b233d;
+    background-color: #f5f4e9;
+    color: #1b233d;
     border-radius: 0;
   }
 
