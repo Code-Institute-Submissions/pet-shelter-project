@@ -54,6 +54,7 @@ nav {
   min-height: 60px;
   padding: 5px 0px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   text-transform: uppercase;
@@ -94,6 +95,24 @@ nav {
 
 .active-page {
   border-bottom: 3px solid #f5f4e9;
+}
+
+/* ----- hamburger button menu ----- */
+
+.hamburger {
+  background-color: transparent;
+  display: none;
+  color: #1b233d;
+  font-size: 2.2rem;
+  cursor: pointer;
+  width: 30px;
+  margin: 0;
+  border: #1b233d 2px solid;
+  border-radius: 0;
+}
+
+.hamburger:focus {
+  outline: none;
 }
 
 /* ----- main frontpage ----- */
@@ -197,10 +216,11 @@ nav {
   color: #1b233d;
   width: 90%;
   margin: auto;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  /*margin-top: 40px;
+  margin-bottom: 40px;*/
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 #pet-circle-container {
@@ -277,6 +297,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 40px 30px;
 }
 
 .adoption-card:hover {
@@ -685,4 +706,49 @@ footer {
   color: #1b233d;
   align-self: flex-start;
   text-align: left;
+}
+
+/* ----- media queries ----- */
+
+@media (max-width: 767px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+  }
+
+  .nav-links.show {
+    /* --- hamburger menu credits #?? --- https://www.youtube.com/watch?v=ydZc17rlR5E --- */
+    display: flex;
+  }
+
+  .nav-contact {
+    color: #f5f4e9;
+    background-color: transparent;
+  }
+
+  .nav-link {
+    display: block;
+    padding: 10px;
+  }
+
+  .nav-link:hover {
+    border-bottom: none;
+    background-color: #1b233d;
+  }
+
+  .nav-contact:hover {
+    border-bottom: none;
+    background-color: #1b233d;
+    border-radius: 0;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .active-page {
+    border-bottom: none;
+  }
 }
