@@ -230,11 +230,21 @@ placeholder text
 
 ### Code
 
-#1: Used [this video](https://www.youtube.com/watch?v=gj4zoaigSqI) by Youtube channel 'dcode' to maintain aspect ratio on images by using 'object-fit' in CSS.
+#1: Used [this video](https://www.youtube.com/watch?v=gj4zoaigSqI) by Youtube channel 'dcode' to figure out how to maintain aspect ratio on images by using 'object-fit' in CSS.
 
 #2: Referenced [this online explanation](https://codetheweb.blog/css-advanced-background-images/) from https://codetheweb.blog/ about background image manipulation to help with the background image positioning on the about us page, especially the 'background-position-x' property helped me achieve what I was looking for.
 
-#? https://stackoverflow.com/questions/11488960/how-do-i-put-my-websites-logo-to-be-the-icon-image-in-browser-tabs
+#3: Referenced [this code snippet](https://css-tricks.com/snippets/css/transparent-background-images/) from https://css-tricks.com/ to help create a transparent background image effect.
+
+#4: Referenced [this online explanation](https://www.w3schools.com/howto/howto_css_placeholder.asp) from https://www.w3schools.com/ to help change the placeholder text colour.
+
+#5: Used a piece of code from the 'Love running project' from the Code Institute course materials that creates a circle image.
+
+#6: Used [this video](https://www.youtube.com/watch?v=cwC1qdPWBKo) by Youtube channel 'Red Stapler' to figure out how to create a hover effect for my adoption cards.
+
+#7: Referenced [this online explanation](https://www.w3docs.com/snippets/html/how-to-make-a-div-fill-the-height-of-the-remaining-space.html) from https://www.w3docs.com/ to help create a page height filler class that prevents the body element to extend past the footer, but instead extends the main content part of the site.
+
+#8: Used [this video](https://www.youtube.com/watch?v=ydZc17rlR5E) by Youtube channel 'Florin Pop' to figure out how to create a hamburger menu for mobile responsiveness in the navigation bar.
 
 ### Text
 
@@ -242,7 +252,22 @@ placeholder text
 
 ### Media
 
-Used https://coolors.co/ to create an image of my colour palette.
+Used https://coolors.co/ to create an image of my colour palette (see 'Surface' section of the README).
+
+#9: Used [this photo](https://www.pexels.com/photo/short-coated-tan-dog-2253275/) made by Helena Lopes from https://www.pexels.com/
+
+#10: Used [this photo](https://www.pexels.com/photo/russian-blue-cat-in-close-up-photography-3825031/) made by
+Amelie from https://www.pexels.com/
+
+#11: Used [this photo](https://www.pexels.com/photo/orange-tabby-cat-beside-fawn-short-coated-puppy-46024/) made by Snapwire from https://www.pexels.com/
+
+#12: Used [this photo](https://www.pexels.com/photo/woman-in-white-tank-top-hugging-yellow-labrador-retriever-5257600/) made by Samson Katt from https://www.pexels.com/
+
+#13: Used [this photo](https://www.pexels.com/photo/picturesque-view-of-lake-and-forest-in-mountains-3934023/) made by Tatiana Syrikova from https://www.pexels.com/
+
+#?: Used [this photo](Y) made by X from https://www.pexels.com/
+
+#? https://stackoverflow.com/questions/11488960/how-do-i-put-my-websites-logo-to-be-the-icon-image-in-browser-tabs
 
 ### Acknowledgements
 
