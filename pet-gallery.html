@@ -103,25 +103,25 @@
         </div>
         <div class="footer-disclaimer">Disclaimer: this is a fictional project!</div>
     </footer>
+    <!-- popup modal textbox - credits #x - https://www.youtube.com/watch?v=snhpoxtLugU -->
+    <div id="popup">
+        <a onclick="toggle()"><i class="fas fa-times"></i></a>
+        <h2>Fictional project</h2>
+        <p>This is a fictional project, therefore there are no actual social media links. Press X to continue browsing the website.</p>
+    </div>
+    <script>
+        function toggle(){
+            var blur = document.getElementById('nav-blur');
+            blur.classList.toggle('active')
+            var blur = document.getElementById('main-blur');
+            blur.classList.toggle('active')
+            var blur = document.getElementById('footer-blur');
+            blur.classList.toggle('active')
+            var popup = document.getElementById('popup');
+            popup.classList.toggle('active')
+        }
+    </script>
+    <!-- hamburger menu - credits #??  https://www.youtube.com/watch?v=ydZc17rlR5E -->  
+    <script src="hamburger-menu.js"></script>
 </body>
-<!-- popup modal textbox --- credits #x --- https://www.youtube.com/watch?v=snhpoxtLugU -->
-<div id="popup">
-    <a onclick="toggle()"><i class="fas fa-times"></i></a>
-    <h2>Fictional project</h2>
-    <p>This is a fictional project, therefore there are no actual social media links. Press X to continue browsing the website.</p>
-</div>
-<script type="text/javascript">
-    function toggle(){
-        var blur = document.getElementById('nav-blur');
-        blur.classList.toggle('active')
-        var blur = document.getElementById('main-blur');
-        blur.classList.toggle('active')
-        var blur = document.getElementById('footer-blur');
-        blur.classList.toggle('active')
-        var popup = document.getElementById('popup');
-        popup.classList.toggle('active')
-    }
-</script>
-<!-- hamburger menu --- credits #??  https://www.youtube.com/watch?v=ydZc17rlR5E -->
-<script src="hamburger-menu.js"></script>
 </html>
