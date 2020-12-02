@@ -1196,6 +1196,47 @@ footer {
   }
 }
 
+/* --- pet gallery pages --- */
+
+@media (max-width: 890px) {
+  .pet-cards {
+    width: 280px;
+    height: 260px;
+    margin: 25px;
+  }
+  .pet-cards h4 {
+    padding-bottom: 4px;
+    font-size: 1.5rem;
+  }
+  .pet-cards p {
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 732px) {
+  .main-container-pet-gallery {
+    color: #1b233d;
+    width: 96%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 325px) {
+  .pet-cards {
+    margin: 20px 10px;
+  }
+  .pet-cards h4 {
+    padding-bottom: 2px;
+  }
+  .pet-cards p {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+}
+
 /* ----- navbar hamburger menu ----- */
 
 @media (max-width: 767px) {
