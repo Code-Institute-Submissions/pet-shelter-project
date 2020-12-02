@@ -242,6 +242,7 @@ iframe {
   height: 100%;
   width: 100%;
   border-radius: 50%;
+  size: inherit;
   background-size: cover;
   margin: auto;
 }
@@ -252,6 +253,7 @@ iframe {
   height: 100%;
   width: 100%;
   border-radius: 50%;
+  size: inherit;
   background-size: cover;
   margin: auto;
 }
@@ -262,6 +264,7 @@ iframe {
   height: 100%;
   width: 100%;
   border-radius: 50%;
+  size: inherit;
   background-size: cover;
   margin: auto;
 }
