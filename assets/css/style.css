@@ -225,7 +225,7 @@ iframe {
   flex-wrap: wrap;
 }
 
-#pet-circle-container {
+.pet-circle-container {
   /* --- credits #5 (?) Love running project --- */
   background-color: #00da74;
   width: 225px;
@@ -1144,7 +1144,7 @@ footer {
   .main-container-adopt {
     width: 96%;
   }
-  #pet-circle-container {
+  .pet-circle-container {
     margin-bottom: 25px;
   }
   .adoption-card {
