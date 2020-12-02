@@ -58,7 +58,7 @@
         <div class="section-container-frontpage">
             <div class="why-adopt-video">
                 <!-- credits #?? -->
-                <iframe width="780" height="440" src="https://www.youtube-nocookie.com/embed/wWw0iQF5Za8?&rel=0&modestbranding=1&showinfo=0&autohide=1&autoplay=0" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="780" height="440" src="https://www.youtube-nocookie.com/embed/wWw0iQF5Za8?&rel=0&modestbranding=1&showinfo=0&autohide=1&autoplay=0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <!-- credits #?? voor youtube link spul
                 https://stackoverflow.com/questions/16638734/possible-to-disable-watch-on-youtube-link
                 https://www.marketpath.com/blog/remove-youtube-info-from-embedded-videos
@@ -96,27 +96,27 @@
         </div>
         <div class="footer-disclaimer">Disclaimer: this is a fictional project!</div>
     </footer>
+    <!-- popup modal textbox - credits #x - https://www.youtube.com/watch?v=snhpoxtLugU -->
+    <div id="popup">
+        <a onclick="toggle()"><i class="fas fa-times"></i></a>
+        <h2>Fictional project</h2>
+        <p>This is a fictional project, therefore there are no actual social media links. Press X to continue browsing the website.</p>
+    </div>
+    <script>
+        function toggle(){
+            var blur = document.getElementById('nav-blur');
+            blur.classList.toggle('active')
+            var blur = document.getElementById('main-blur');
+            blur.classList.toggle('active')
+            var blur = document.getElementById('section-blur');
+            blur.classList.toggle('active')
+            var blur = document.getElementById('footer-blur');
+            blur.classList.toggle('active')
+            var popup = document.getElementById('popup');
+            popup.classList.toggle('active')
+        }
+    </script>
+    <!-- hamburger menu - credits #??  https://www.youtube.com/watch?v=ydZc17rlR5E -->
+    <script src="hamburger-menu.js"></script>
 </body>
-<!-- popup modal textbox --- credits #x --- https://www.youtube.com/watch?v=snhpoxtLugU -->
-<div id="popup">
-    <a onclick="toggle()"><i class="fas fa-times"></i></a>
-    <h2>Fictional project</h2>
-    <p>This is a fictional project, therefore there are no actual social media links. Press X to continue browsing the website.</p>
-</div>
-<script type="text/javascript">
-    function toggle(){
-        var blur = document.getElementById('nav-blur');
-        blur.classList.toggle('active')
-        var blur = document.getElementById('main-blur');
-        blur.classList.toggle('active')
-        var blur = document.getElementById('section-blur');
-        blur.classList.toggle('active')
-        var blur = document.getElementById('footer-blur');
-        blur.classList.toggle('active')
-        var popup = document.getElementById('popup');
-        popup.classList.toggle('active')
-    }
-</script>
-<!-- hamburger menu --- credits #??  https://www.youtube.com/watch?v=ydZc17rlR5E -->
-<script src="hamburger-menu.js"></script>
 </html>

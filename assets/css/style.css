@@ -210,6 +210,10 @@ nav {
   justify-content: center;
 }
 
+iframe {
+  border: 0;
+}
+
 /* ----- main adoption page ----- */
 
 .main-container-adopt {
