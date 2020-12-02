@@ -1339,6 +1339,108 @@ footer {
   }
 }
 
+/* --- let go page --- */
+
+@media (max-width: 1200px) {
+  .about-page-part-one {
+    margin-left: 0px;
+  }
+  .main-container-about {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .about-page-part-one {
+    max-width: 80%;
+  }
+  .about-page-part-one h1 {
+    font-size: 4rem;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+  .about-page-part-one p {
+    font-size: 1.8rem;
+    padding: 0 10px 10px 10px;
+  }
+}
+
+@media (max-width: 876px) {
+  .about-page-part-onee {
+    max-height: 80%;
+  }
+  .about-page-part-one h1 {
+    font-size: 3.2rem;
+    padding-bottom: 8px;
+  }
+  .about-page-part-one p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 730px) {
+  .about-page-part-one h1 {
+    font-size: 2.8rem;
+    padding-bottom: 6px;
+  }
+  .about-page-part-one p {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .about-page-part-one h1 {
+    font-size: 2.6rem;
+    padding-bottom: 4px;
+  }
+  .about-page-part-one p {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 554px) {
+  .about-page-part-one {
+    max-width: 90%;
+  }
+  .about-page-part-one h1 {
+    font-size: 2.2rem;
+    padding-bottom: 3px;
+  }
+  .about-page-part-one p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-page-part-one {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 427px) {
+  .about-page-part-one {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .about-page-part-one h1 {
+    font-size: 2rem;
+    padding-bottom: 2px;
+  }
+  .about-page-part-one p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 340px) {
+  .about-page-part-one h1 {
+    font-size: 1.8rem;
+  }
+  .about-page-part-one p {
+    font-size: 1rem;
+  }
+}
+
 /* --- contact page --- */
 
 @media (max-width: 876px) {
