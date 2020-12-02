@@ -1237,6 +1237,108 @@ footer {
   }
 }
 
+/* --- let go page --- */
+
+@media (max-width: 1200px) {
+  .let-go-page-part-one {
+    margin-right: 0px;
+  }
+  .main-container-let-go {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .let-go-page-part-one {
+    max-width: 80%;
+  }
+  .let-go-page-part-one h1 {
+    font-size: 4rem;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+  .let-go-page-part-one p {
+    font-size: 1.8rem;
+    padding: 0 10px 10px 10px;
+  }
+}
+
+@media (max-width: 876px) {
+  .let-go-page-part-one {
+    max-height: 80%;
+  }
+  .let-go-page-part-one h1 {
+    font-size: 3.2rem;
+    padding-bottom: 8px;
+  }
+  .let-go-page-part-one p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 730px) {
+  .let-go-page-part-one h1 {
+    font-size: 2.8rem;
+    padding-bottom: 6px;
+  }
+  .let-go-page-part-one p {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .let-go-page-part-one h1 {
+    font-size: 2.6rem;
+    padding-bottom: 4px;
+  }
+  .let-go-page-part-one p {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 554px) {
+  .let-go-page-part-one {
+    max-width: 90%;
+  }
+  .let-go-page-part-one h1 {
+    font-size: 2.2rem;
+    padding-bottom: 3px;
+  }
+  .let-go-page-part-one p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .let-go-page-part-one {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 427px) {
+  .let-go-page-part-one {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .let-go-page-part-one h1 {
+    font-size: 2rem;
+    padding-bottom: 2px;
+  }
+  .let-go-page-part-one p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 340px) {
+  .let-go-page-part-one h1 {
+    font-size: 1.8rem;
+  }
+  .let-go-page-part-one p {
+    font-size: 1rem;
+  }
+}
+
 /* --- contact page --- */
 
 @media (max-width: 876px) {
