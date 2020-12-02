@@ -1532,3 +1532,21 @@ footer {
     border-bottom: none;
   }
 }
+
+/* ----- pop-up media queries ----- */
+
+@media (max-width: 370px) {
+  #popup {
+    width: 330px;
+    height: 240px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 340px) {
+  #popup {
+    width: 260px;
+    height: 240px;
+    padding: 10px;
+  }
+}
