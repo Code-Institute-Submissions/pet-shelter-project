@@ -216,8 +216,6 @@ nav {
   color: #1b233d;
   width: 90%;
   margin: auto;
-  /*margin-top: 40px;
-  margin-bottom: 40px;*/
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -1133,6 +1131,68 @@ footer {
   .why-adopt-video iframe {
     width: 260px;
     height: 200px;
+  }
+}
+
+/* --- adopt page --- */
+
+@media (max-width: 480px) {
+  .main-container-adopt {
+    width: 96%;
+  }
+  #pet-circle-container {
+    margin-bottom: 25px;
+  }
+  .adoption-card {
+    width: 360px;
+    height: 270px;
+  }
+  .adoption-card h2 {
+    margin-bottom: 4px;
+    padding-top: 5px;
+    font-size: 2.2rem;
+  }
+  .adoption-card p {
+    font-size: 1.4rem;
+  }
+  .adoption-info {
+    padding: 25px 10px;
+  }
+}
+
+@media (max-width: 405px) {
+  .adoption-card {
+    width: 300px;
+    height: 240px;
+  }
+  .adoption-card h2 {
+    margin-bottom: 2px;
+    padding-top: 3px;
+    font-size: 1.8rem;
+  }
+  .adoption-card p {
+    font-size: 1.2rem;
+  }
+  .adoption-info {
+    padding: 15px 6px;
+  }
+}
+
+@media (max-width: 330px) {
+  .adoption-card {
+    width: 260px;
+    height: 220px;
+  }
+  .adoption-card h2 {
+    margin-bottom: 2px;
+    padding-top: 3px;
+    font-size: 1.6rem;
+  }
+  .adoption-card p {
+    font-size: 1.1rem;
+  }
+  .adoption-info {
+    padding: 10px 4px;
   }
 }
 
