@@ -249,7 +249,7 @@ iframe {
 #cat-circle-img {
   /* --- credits #5 (?) Love running project --- */
   background: url(../../assets/img/cat-02.jpg) no-repeat center center;
-  /height: 100%;
+  height: 100%;
   width: 100%;
   border-radius: 50%;
   background-size: cover;
