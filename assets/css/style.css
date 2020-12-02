@@ -1237,6 +1237,41 @@ footer {
   }
 }
 
+/* --- contact page --- */
+
+@media (max-width: 876px) {
+  .main-container-contact {
+    color: #1b233d;
+    width: 96%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .contact-form-container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 687px) {
+  .contact-form-container {
+    height: 560px;
+  }
+  form textarea {
+    height: 140px;
+  }
+}
+
+@media (max-width: 480px) {
+  form input,
+  form select,
+  form textarea {
+    margin-bottom: 8px;
+    width: 90%;
+  }
+  form textarea {
+    height: 120px;
+  }
+}
+
 /* ----- navbar hamburger menu ----- */
 
 @media (max-width: 767px) {
