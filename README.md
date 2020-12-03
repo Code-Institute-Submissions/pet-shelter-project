@@ -281,9 +281,25 @@ Amelie from https://www.pexels.com/
 
 #16: Embedded [this video](https://www.youtube.com/watch?v=wWw0iQF5Za8) by Youtube channel 'AnimalWised'
 
-#?: Used [this photo](Y) made by X from https://www.pexels.com/
+#23: Used [this photo](https://www.pexels.com/photo/animal-blur-canine-close-up-551628/) made by Kat Jayne from https://www.pexels.com/
 
-#? https://stackoverflow.com/questions/11488960/how-do-i-put-my-websites-logo-to-be-the-icon-image-in-browser-tabs
+#24: Used [this photo](https://www.pexels.com/photo/black-and-white-siberian-husky-puppy-on-brown-grass-field-3726314/) made by Julissa Helmuth from https://www.pexels.com/
+
+#25: Used [this photo](https://www.pexels.com/photo/nature-summer-animal-dog-92380/) made by Stefan Stefancik from https://www.pexels.com/
+
+#26: Used [this photo](https://www.pexels.com/photo/black-and-white-french-bulldog-puppy-stepping-on-brown-wood-board-panel-close-up-photography-776078/) made by Jens Mahnke from https://www.pexels.com/
+
+#27: Used [this photo](https://www.pexels.com/photo/long-coated-dog-on-white-floor-tiles-1188395/) made by Mariana Blue from https://www.pexels.com/
+
+#28: Used [this photo](https://www.pexels.com/photo/animal-cat-close-up-domestic-416195/) made by Pixabay from https://www.pexels.com/
+
+#29: Used [this photo](https://www.pexels.com/photo/adorable-animal-baby-blur-177809/) made by Inge Wallumrød from https://www.pexels.com/
+
+#30: Used [this photo](https://www.pexels.com/photo/calico-kitten-lying-on-the-white-wooden-surface-1404826/) made by Cong H from https://www.pexels.com/
+
+#31: Used [this photo](https://www.pexels.com/photo/bombay-cat-on-grey-ground-881142/) made by Craig Dennis from https://www.pexels.com/
+
+Referenced [this online explanation](https://stackoverflow.com/questions/11488960/how-do-i-put-my-websites-logo-to-be-the-icon-image-in-browser-tabs) from https://stackoverflow.com/ to figure out how to add a favicon to my browser tabs.
 
 ### Acknowledgements
 
