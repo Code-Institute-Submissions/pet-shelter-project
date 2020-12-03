@@ -6,7 +6,7 @@ Milestone Project 1: User-Centric Front-end Development – [Code Institute](htt
 
 This website was made as my first milestone project for the Code Institute course. The website was created for a fictional pet shelter and the project requirements were to create a static front-end website using HTML and CSS.
 
-add some images of the website here later<<<
+![Website example](wireframes/website-example.jpg)
 
 ---
 
