@@ -246,9 +246,19 @@ placeholder text
 
 #8: Used [this video](https://www.youtube.com/watch?v=ydZc17rlR5E) by Youtube channel 'Florin Pop' to figure out how to create a hamburger menu for mobile responsiveness in the navigation bar.
 
+#17: Referenced [this online explanation](https://stackoverflow.com/questions/16638734/possible-to-disable-watch-on-youtube-link) from https://stackoverflow.com/ to change or remove some of the YouTube embed attributes.
+
+#18: Referenced [this online explanation](https://www.marketpath.com/blog/remove-youtube-info-from-embedded-videos) from https://www.marketpath.com/blog/ to change or remove some of the YouTube embed attributes.
+
+#19: Used [this video](https://www.youtube.com/watch?v=snhpoxtLugU) by Youtube channel 'Online Tutorials' to figure out how to create a pop-up modal and blur the rest of the website.
+
 ### Text
 
-placeholder text
+#20: Used and changed some parts of the text from https://www.doamsterdam.nl/animal-shelter/ to mix with my own text.
+
+#21: Used and changed some parts of the text from https://www.doamsterdam.nl/saying-goodbye-to-your-pet/ to mix with my own text.
+
+#22: Used and changed some parts of the text from https://www.portercountyanimalshelter.org/101/About-Us to mix with my own text.
 
 ### Media
 
@@ -264,6 +274,12 @@ Amelie from https://www.pexels.com/
 #12: Used [this photo](https://www.pexels.com/photo/woman-in-white-tank-top-hugging-yellow-labrador-retriever-5257600/) made by Samson Katt from https://www.pexels.com/
 
 #13: Used [this photo](https://www.pexels.com/photo/picturesque-view-of-lake-and-forest-in-mountains-3934023/) made by Tatiana Syrikova from https://www.pexels.com/
+
+#14: Used [this photo](https://www.pexels.com/photo/woman-girl-animal-dog-40064/) made by Tookapic from https://www.pexels.com/
+
+#15: Used [this photo](https://www.pexels.com/photo/person-holding-cat-3512792/) made by Eslozof from https://www.pexels.com/
+
+#16: Embedded [this video](https://www.youtube.com/watch?v=wWw0iQF5Za8) by Youtube channel 'AnimalWised'
 
 #?: Used [this photo](Y) made by X from https://www.pexels.com/
 
