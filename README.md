@@ -1,8 +1,8 @@
 # Pet shelter
 
-View live version of the website [here](https://linktowebsite).
+View live version of the website [here](https://larkinz.github.io/pet-shelter-project/).
 
-Milestone Project 1: User-Centric Front-end Development – Code Institute
+Milestone Project 1: User-Centric Front-end Development – [Code Institute](https://codeinstitute.net/)
 
 This website was made as my first milestone project for the Code Institute course. The website was created for a fictional pet shelter and the project requirements were to create a static front-end website using HTML and CSS.
 
@@ -232,7 +232,7 @@ placeholder text
 
 #1: Used [this video](https://www.youtube.com/watch?v=gj4zoaigSqI) by Youtube channel 'dcode' to figure out how to maintain aspect ratio on images by using 'object-fit' in CSS.
 
-#2: Referenced [this online explanation](https://codetheweb.blog/css-advanced-background-images/) from https://codetheweb.blog/ about background image manipulation to help with the background image positioning on the about us page, especially the 'background-position-x' property helped me achieve what I was looking for.
+#2: Referenced [this online explanation](https://codetheweb.blog/css-advanced-background-images/) from https://codetheweb.blog/ about background image manipulation to help with the background image positioning on the let go and about us pages, especially the 'background-position-x' property helped me achieve what I was looking for.
 
 #3: Referenced [this code snippet](https://css-tricks.com/snippets/css/transparent-background-images/) from https://css-tricks.com/ to help create a transparent background image effect.
 
