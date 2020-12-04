@@ -123,7 +123,19 @@ To test the website for mobile responsiveness I've been using the [Google Chrome
 
 ## Lighthouse
 
-placeholder text
+In the Google Chrome devtools is also a [Lighthouse feature](testing-screenshots/google-lighthouse.png) which gives you some performance, accessibility, best practices and SEO indicators for your website. I recorded some before and after scores from several pages. I managed to improve the performance score on pages (although this metric seemed somewhat unreliable, since scores deviated without changes to the website) by putting my images through compression on the https://tinyjpg.com/ website. I also improved accessibility scores by adding an aria-label in the HTML code to the hamburger menu button and on the frontpage I added a title to the embedded YouTube video in the HTML code. The SEO score was simply improved by adding meta tags in the HTML with a description of the website and keywords, I did this for all pages. Below you can see some of the before and after scores.
+
+![Colour palette](testing-screenshots/homepage-desktop-LH.png)
+
+![Colour palette](testing-screenshots/homepage-mobile-LH.png)
+
+![Colour palette](testing-screenshots/adopt-desktop-LH.png)
+
+![Colour palette](testing-screenshots/adopt-mobile-LH.png)
+
+![Colour palette](testing-screenshots/gallery-desktop-LH.png)
+
+![Colour palette](testing-screenshots/gallery-mobile-LH.png)
 
 **_[Back to top](#contents)_**
 
