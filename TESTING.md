@@ -13,6 +13,7 @@ In this document you will find information about the testing procedures that I h
 - [**Browser compatibility**](#browser-compatibility)
 
   - Tested browsers and devices
+  - What I tested
   - Browser compatibility testing results
 
 - [**Mobile responsiveness**](#mobile-responsiveness)
@@ -85,7 +86,7 @@ Everything is working and displaying as intended.
 I don't have any capability to properly test Safari myself, since I don't own any Apple devices and the Windows version was discontinued in September 2018. After a quick search on the internet I found the
 website https://www.browserstack.com/ that lets you test other peoples' devices for a limited amount of time. From my limited testing capabilities what I found was that everything seemed to work and display
 correctly on Safari Version 13.1 mac devices ([see screenshot](testing-screenshots/safari-mac.png)). On the one phone that had Safari Version 10 there were some spacing issues between elements ([see screenshot](testing-screenshots/safari-10.png)) and the hamburger
-menu seemed to be broken since nothing happened when I tapped it. On all phones I tested that had Safari Version 11 or higher the hamburger menu worked ([see screenshot](testing-screenshots/safari-latest)), but the spacing issues between elements
+menu seemed to be broken since nothing happened when I tapped it. On all phones I tested that had Safari Version 11 or higher the hamburger menu worked ([see screenshot](testing-screenshots/safari-latest.png)), but the spacing issues between elements
 on the homepage was still there. So in conclusion, if you're using the newest version of Safari everything seems okay except for some spacing issues on the homepage.
 
 **Microsoft Edge Version 87.0.664.55 (Official build) (64-bit):**
@@ -102,11 +103,11 @@ Everything is working and displaying as intended.
 
 **Samsung Internet Version 9.2.00.70:**
 
-The same spacing issues on the homepage that I encountered when testing Safari on iPhones seem to be present here [see screenshot](testing-screenshots/SI-homepage.jpg), other than that everything is working and displaying as intended [screenshot of footer](testing-screenshots/SI-footer.jpg).
+The same spacing issues on the homepage that I encountered when testing Safari on iPhones seem to be present here ([see screenshot](testing-screenshots/SI-homepage.jpg)), other than that everything is working and displaying as intended ([screenshot of footer](testing-screenshots/SI-footer.jpg)).
 
 **Brave Browser Version 1.13.87, Chromium 85.0.4183.102:**
 
-Everything is working and displaying as intended, no spacing issues on the homepage here unlike the other mobile browsers [see screenshot](testing-screenshots/brave-homepage.jpg).
+Everything is working and displaying as intended, no spacing issues on the homepage here unlike the other mobile browsers ([see screenshot](testing-screenshots/brave-homepage.jpg)).
 
 **_[Back to top](#contents)_**
 
@@ -114,7 +115,7 @@ Everything is working and displaying as intended, no spacing issues on the homep
 
 ## Mobile responsiveness
 
-placeholder text
+To test the website for mobile responsiveness I've been using the [Google Chrome devtools](testing-screenshots/chrome-devtools.png) throughout the coding of the media queries. I manually used the sliders to go through different screen sizes. I've also used all of the [pre-configured screen sizes](testing-screenshots/devtools-phones.png) in the devtools to test if things looked okay. The only issue that I found is that for some phone screen sizes the landscape mode is kind of zoomed in or sub-optimal looking, while on other phone screen sizes it looks perfectly fine.
 
 **_[Back to top](#contents)_**
 
