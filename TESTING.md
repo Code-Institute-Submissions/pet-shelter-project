@@ -125,17 +125,17 @@ To test the website for mobile responsiveness I've been using the [Google Chrome
 
 In the Google Chrome devtools is also a [Lighthouse feature](testing-screenshots/google-lighthouse.png) which gives you some performance, accessibility, best practices and SEO indicators for your website. I recorded some before and after scores from several pages. I managed to improve the performance score on pages (although this metric seemed somewhat unreliable, since scores deviated without changes to the website) by putting my images through compression on the https://tinyjpg.com/ website. I also improved accessibility scores by adding an aria-label in the HTML code to the hamburger menu button and on the frontpage I added a title to the embedded YouTube video in the HTML code. The SEO score was simply improved by adding meta tags in the HTML with a description of the website and keywords, I did this for all pages. Below you can see some of the before and after scores.
 
-![Colour palette](testing-screenshots/homepage-desktop-LH.png)
+![Homepage desktop lighthouse](testing-screenshots/homepage-desktop-LH.png)
 
-![Colour palette](testing-screenshots/homepage-mobile-LH.png)
+![Homepage mobile lighthouse](testing-screenshots/homepage-mobile-LH.png)
 
-![Colour palette](testing-screenshots/adopt-desktop-LH.png)
+![Adopt page desktop lighthouse](testing-screenshots/adopt-desktop-LH.png)
 
-![Colour palette](testing-screenshots/adopt-mobile-LH.png)
+![Adopt page mobile lighthouse](testing-screenshots/adopt-mobile-LH.png)
 
-![Colour palette](testing-screenshots/gallery-desktop-LH.png)
+![Gallery page desktop lighthouse](testing-screenshots/gallery-desktop-LH.png)
 
-![Colour palette](testing-screenshots/gallery-mobile-LH.png)
+![Gallery page mobile lighthouse](testing-screenshots/gallery-mobile-LH.png)
 
 **_[Back to top](#contents)_**
 
@@ -145,11 +145,23 @@ In the Google Chrome devtools is also a [Lighthouse feature](testing-screenshots
 
 ### W3C - Markup Validation Service
 
-placeholder text
+I've put the HTML code for all pages through the [W3C markup validator](https://validator.w3.org/) and got no errors, just some harmless warnings. On the index.html page I got the following 2 warnings:
+
+![HTML validator index page warnings](testing-screenshots/HTML-validator-index.png)
+
+For the let go, about us and contact pages I got the same H1 warning that I got for the index.html page:
+
+![HTML validator let go page warning](testing-screenshots/HTML-validator-letgo.png)
+
+Weirdly enough I didn't get this warning on the adopt, dog gallery, cat gallery and pet gallery pages, even though I'm using the same code in there:
+
+![HTML validator pass](testing-screenshots/HTML-validator-pass.png)
 
 ### W3C - CSS Validation Service
 
-placeholder text
+I've put the CSS code from my style.css file through the [W3C CSS validator](https://jigsaw.w3.org/css-validator/) and got no errors:
+
+![CSS validator pass](testing-screenshots/CSS-validator-pass.png)
 
 **_[Back to top](#contents)_**
 
