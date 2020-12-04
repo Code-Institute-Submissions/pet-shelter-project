@@ -104,7 +104,7 @@ The website uses what I would call a 'spider web structure', where every page is
 
 #### Interaction design
 
-Users can use the clickable elements in the navigation bar to browse through the website. Some visible indicators will tell the user at which page they currently are, while other visible indicators will alert users when they are hovering a link. Users with touchscreens can swipe up and down to scroll through the web pages and they can (double)tap to open links and browse through the website. There won't be any audio or video that users can interact with.
+Users can use the clickable elements in the navigation bar to browse through the website. Some visible indicators will tell the user at which page they currently are, while other visible indicators will alert users when they are hovering a link. Users with touchscreens can swipe up and down to scroll through the web pages and they can (double)tap to open links and browse through the website. The embedded YouTube video on the frontpage can be started with a single tap or click, audio control is integrated in the YouTube player, so users can mute the audio or change the volume in there.
 
 ### Skeleton
 
