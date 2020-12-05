@@ -186,19 +186,31 @@ The contact page allows the visitor to state their reason for inquiry and includ
 
 ### Languages
 
-placeholder text
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) - for the structuring of the website.
+
+- [CSS3](https://developer.mozilla.org/en-US/docs/Archive/CSS3) - for the styling and responsiveness of the website.
+
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - for the hamburger menu and the pop-up modal.
 
 ### Frameworks
 
-placeholder text
+None
 
 ### Libraries
 
-placeholder text
+- [Google Fonts](https://fonts.google.com/) - for the Montserrat font-family.
+
+- [Font Awesome](https://fontawesome.com/) - for all the icons used throughout the website.
 
 ### Software
 
-placeholder text
+- [Figma](https://www.figma.com/) - for creating the wireframes.
+
+- [Visual Studio Code (desktop version)](https://code.visualstudio.com/) - for coding and creating the project.
+
+- [Git (BASH)](https://gitforwindows.org/) - for version control in the VSCode terminal.
+
+- [Google Chrome](https://www.google.com/chrome/) - for testing the website with their devtools.
 
 **_[Back to top](#contents)_**
 
