@@ -17,7 +17,7 @@ body {
   font-size: 1.6rem;
   background-color: #f5f4e9;
   display: flex;
-  flex-flow: column; /* --- credits #7 --- */
+  flex-flow: column; /* --- credits #7 (see README.md credits section) --- */
   height: 100%;
   min-height: 100vh;
 }
@@ -30,7 +30,7 @@ body {
 }
 
 .page-height-filler {
-  /* --- credits #7 --- */
+  /* --- credits #7 (see README.md credits section) --- */
   flex: 1;
   display: flex;
 }
@@ -155,7 +155,7 @@ nav {
   max-height: 360px;
   min-width: 235px;
   max-width: 470px;
-  object-fit: contain; /* --- credits #1 --- */
+  object-fit: contain; /* --- credits #1 (see README.md credits section) --- */
   border-radius: 10px;
 }
 
@@ -226,7 +226,7 @@ iframe {
 }
 
 .pet-circle-container {
-  /* --- credits #5 --- */
+  /* --- credits #5 (see README.md credits section) --- */
   background-color: #00da74;
   width: 225px;
   height: 225px;
@@ -237,8 +237,8 @@ iframe {
 }
 
 #dog-circle-img {
-  /* --- credits #5 --- */
-  background: url(../../assets/img/dog-02.jpg) no-repeat center center; /* --- credits #9 --- */
+  /* --- credits #5 (see README.md credits section) --- */
+  background: url(../../assets/img/dog-02.jpg) no-repeat center center; /* --- credits #9 (see README.md credits section) --- */
   height: 100%;
   width: 100%;
   border-radius: 50%;
@@ -247,8 +247,8 @@ iframe {
 }
 
 #cat-circle-img {
-  /* --- credits #5 --- */
-  background: url(../../assets/img/cat-02.jpg) no-repeat center center; /* --- credits #10 --- */
+  /* --- credits #5 (see README.md credits section) --- */
+  background: url(../../assets/img/cat-02.jpg) no-repeat center center; /* --- credits #10 (see README.md credits section) --- */
   height: 100%;
   width: 100%;
   border-radius: 50%;
@@ -257,8 +257,8 @@ iframe {
 }
 
 #all-circle-img {
-  /* --- credits #5 --- */
-  background: url(../../assets/img/dog-and-cat.jpg) no-repeat center center; /* --- credits #11 --- */
+  /* --- credits #5 (see README.md credits section) --- */
+  background: url(../../assets/img/dog-and-cat.jpg) no-repeat center center; /* --- credits #11 (see README.md credits section) --- */
   height: 100%;
   width: 100%;
   border-radius: 50%;
@@ -301,7 +301,7 @@ p {
 
 .adoption-card:hover {
   transform: translate(-5px, -15px);
-  /* --- credits #6 --- */
+  /* --- credits #6 (see README.md credits section) --- */
   box-shadow: 1px 1px 0px 0px #1b233dd2;
 }
 
@@ -368,14 +368,14 @@ p {
 }
 
 .main-container-let-go::after {
-  /* --- credits #3 --- */
+  /* --- credits #3 (see README.md credits section) --- */
   content: "";
-  background-image: url("../img/let-go.jpg"); /* --- credits #12 --- */
+  background-image: url("../img/let-go.jpg"); /* --- credits #12 (see README.md credits section) --- */
   margin-left: 5%;
   margin-right: 5%;
   background-position: center center;
   background-size: cover;
-  background-position-x: 0%; /* --- credits #2 --- */
+  background-position-x: 0%; /* --- credits #2 (see README.md credits section) --- */
   opacity: 0.25;
   top: 0;
   left: 0;
@@ -419,14 +419,14 @@ p {
 }
 
 .main-container-about::after {
-  /* --- credits #3 --- */
+  /* --- credits #3 (see README.md credits section) --- */
   content: "";
-  background-image: url("../img/about-background.jpg"); /* --- credits #13 --- */
+  background-image: url("../img/about-background.jpg"); /* --- credits #13 (see README.md credits section) --- */
   margin-left: 5%;
   margin-right: 5%;
   background-position: center center;
   background-size: cover;
-  background-position-x: 80%; /* --- credits #2 --- */
+  background-position-x: 80%; /* --- credits #2 (see README.md credits section) --- */
   opacity: 0.3;
   top: 0;
   left: 0;
@@ -528,18 +528,18 @@ button {
 }
 
 .input-field::placeholder {
-  /* --- credits #4 --- */
+  /* --- credits #4 (see README.md credits section) --- */
   color: #1b233d;
   opacity: 1;
 }
 
 .input-field:-ms-input-placeholder {
-  /* --- credits #4 --- */
+  /* --- credits #4 (see README.md credits section) --- */
   color: #1b233d;
 }
 
 .input-field::-ms-input-placeholder {
-  /* --- credits #4 --- */
+  /* --- credits #4 (see README.md credits section) --- */
   color: #1b233d;
 }
 
@@ -1506,7 +1506,7 @@ footer {
   }
 
   .nav-links.show {
-    /* --- credits #8 --- */
+    /* --- credits #8 (see README.md credits section) --- */
     display: flex;
   }
 
