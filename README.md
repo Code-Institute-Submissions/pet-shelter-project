@@ -179,6 +179,8 @@ The contact page allows the visitor to state their reason for inquiry and includ
 
 - Pet cards could be made clickable, in which case a contact form would automatically fill in that the visitor would like to inquire information regarding that specific pet.
 
+- I've tried adding a smooth animation/transition to the hamburger menu, but since I haven't learned JavaScript yet it was too difficult to implement, nothing that I tried did anything. This is a feature that I could add at a later moment, when I have more experience.
+
 **_[Back to top](#contents)_**
 
 ---
