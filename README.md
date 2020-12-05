@@ -54,6 +54,7 @@ This website was made as my first milestone project for the Code Institute cours
   - Code
   - Text
   - Media
+  - Miscellaneous
   - Acknowledgements
 
 - [**Notes**](#notes)
@@ -240,6 +241,8 @@ placeholder text
 
 ## Credits
 
+All numbered references below correspond with a comment in either the HTML or CSS code.
+
 ### Code
 
 #1: Used [this video](https://www.youtube.com/watch?v=gj4zoaigSqI) by Youtube channel 'dcode' to figure out how to maintain aspect ratio on images by using 'object-fit' in CSS.
@@ -273,8 +276,6 @@ placeholder text
 #22: Used and changed some parts of the text from https://www.portercountyanimalshelter.org/101/About-Us to mix with my own text.
 
 ### Media
-
-Used https://coolors.co/ to create an image of my colour palette (see 'Surface' section of the README).
 
 #9: Used [this photo](https://www.pexels.com/photo/short-coated-tan-dog-2253275/) made by Helena Lopes from https://www.pexels.com/
 
@@ -311,11 +312,19 @@ Amelie from https://www.pexels.com/
 
 #31: Used [this photo](https://www.pexels.com/photo/bombay-cat-on-grey-ground-881142/) made by Craig Dennis from https://www.pexels.com/
 
-Referenced [this online explanation](https://stackoverflow.com/questions/11488960/how-do-i-put-my-websites-logo-to-be-the-icon-image-in-browser-tabs) from https://stackoverflow.com/ to figure out how to add a favicon to my browser tabs.
+### Miscellaneous
+
+- Used https://coolors.co/ to create an image of my colour palette (see 'Surface' section of the README).
+
+- Referenced [this online explanation](https://stackoverflow.com/questions/11488960/how-do-i-put-my-websites-logo-to-be-the-icon-image-in-browser-tabs) from https://stackoverflow.com/ to figure out how to add a favicon to my browser tabs.
+
+- Used https://www.favicon.cc/ to create my own favicon.
+
+- Used https://www.browserstack.com/ to test the website on the Safari browser with Apple devices.
 
 ### Acknowledgements
 
-placeholder text
+- My mentor, Rohit Sharma, for his guidance and advice throughout the project.
 
 **_[Back to top](#contents)_**
 
