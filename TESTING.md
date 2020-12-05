@@ -221,9 +221,9 @@ I've put the CSS code from my style.css file through the [W3C CSS validator](htt
 
 1. On every single page the visitor can find the address information clearly provided on the left part of the footer.
 
-- As a visitor, I would like clear and concise information about letting go of a pet, so that I can get a good understanding of what the process is like.
-
 ---
+
+- As a visitor, I would like clear and concise information about letting go of a pet, so that I can get a good understanding of what the process is like.
 
 1. The visitor enters the homepage where he or she can immediately find a link to the let go page in the navigation bar. On top of that there is also a clearly visible header that says 'Letting go of a pet' where in the corresponding text below he or she will find another link to the let go page. As a bonus option the visitor can even go straight to the let go page by clicking on the 'Let go of a pet' link in the middle part of the footer.
 2. Arriving at the let go page the visitor is greeted by a piece of text that contains the information and instructions that he or she was looking for.
@@ -250,13 +250,11 @@ I've put the CSS code from my style.css file through the [W3C CSS validator](htt
 
 - When I tried (through trial & error) creating a transparent background image for the let go and about us pages, the main content kept getting transparent as well. I ended up having to use [this code snippet](https://css-tricks.com/snippets/css/transparent-background-images/) from https://css-tricks.com/ to get it working as intended.
 
-- To create a pop-up modal for my social media icons in the footer I tried to follow several different YouTube videos. I ended up liking [this solution](https://www.youtube.com/watch?v=snhpoxtLugU) by YouTube channel 'Online Tutorials', but of course I had to modify it to suit my website. That was pretty tricky, because I haven't learned Javascript yet, and most of the imporant code involved in the solution consisted of Javascript. What ended up happening first is that blurring the website also caused the pop-up to be blurred. Then I managed the pop-up to be readable, but I couldn't get either the footer or parts of the main page to be blurred at the same time. The solution I ended up figuring out was to create separate variables for all the parts of the website that needed to be blurred, so I gave them all ID's (nav-blur, main-blur, section-blur, footer-blur) linked to the variables.
+- To create a pop-up modal for my social media icons in the footer I tried to follow several different YouTube videos. I ended up liking [this solution](https://www.youtube.com/watch?v=snhpoxtLugU) by YouTube channel 'Online Tutorials', but of course I had to modify it to suit my website. That was pretty tricky, because I haven't learned Javascript yet, and most of the important code involved in the solution consisted of Javascript. What ended up happening first is that blurring the website also caused the pop-up to be blurred. Then I managed the pop-up to be readable, but I couldn't get either the footer or parts of the main page to be blurred at the same time. The solution I ended up figuring out was to create separate variables for all the parts of the website that needed to be blurred, so I gave them all ID's (nav-blur, main-blur, section-blur, footer-blur) linked to the variables.
 
 - When the right part of the footer got pushed down by flexbox wrap, I couldn't get it to horizontally center properly. I first used either margin or padding with 33% to get it done, but then found out that it wasn't centered on different screen sizes. Ended up deleting all of the footer media queries 1 or 2 days later and start from scratch. The first solution I came up with worked immediately, which was to give the right part of the footer a width of 100% and text align center.
 
 - My mentor pointed out that in Google Chrome devtools the console gave several errors on the homepage ([see screenshot](testing-screenshots/console-errors.png)). They were coming from the embedded YouTube video. We ended up fixing it by changing the no-cookie YouTube link to a regular YouTube link and removing some attributes.
-
-placeholder text console errors
 
 ### Known bugs
 
