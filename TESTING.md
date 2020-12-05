@@ -201,15 +201,21 @@ I've put the CSS code from my style.css file through the [W3C CSS validator](htt
 2. Arriving at the adopt page the visitor is greeted by 3 cards that have obvious headers with corresponding images above. The visitor sees the 'All pets' header and in the text below it clearly states 'to have a look at all available pets just click anywhere on this card'.
 3. After clicking on the card in the adopt page or clicking on the 'gallery' link from the homepage, the visitor has arrived at the pet gallery. Here he or she is presented with a clear overview of all the pets that are available for adoption.
 
+---
+
 - As a visitor, I would like to see images of all pets that are available for adoption, so that I can decide if it's worth visiting the shelter.
 
 1. The visitor enters the homepage where he or she can find a 'gallery' link in the footer, indicating that there are images to been seen.
 2. After clicking on the 'gallery' link, the visitor is taken to the pet gallery page where he or she is greeted by an overview of pet cards that all have images of the available pets.
 
+---
+
 - As a visitor, I would like an easy to fill in contact form, so that I can contact the pet shelter to get answers to any questions that I have.
 
 1. The visitor enters the homepage where he or she can immediately find a clearly by colour defined link to the contact page in the navigation bar. On top of that there is also a link in the text below the 'Adopting a pet' header.
 2. Arriving at the contact page the visitor is presented with a simple contact form that has obvious labels and placeholder text that instructs the visitor what to fill in where. The labels also indicate to the visitor which of the information is a requirement. On top of that there is a dropdown menu where the visitor can easily choose his or her reason for inquiry without having to type that somewhere.
+
+---
 
 - As a visitor, I would like to know the pet shelters' address information, so that I know where to travel to.
 
@@ -217,12 +223,18 @@ I've put the CSS code from my style.css file through the [W3C CSS validator](htt
 
 - As a visitor, I would like clear and concise information about letting go of a pet, so that I can get a good understanding of what the process is like.
 
+---
+
 1. The visitor enters the homepage where he or she can immediately find a link to the let go page in the navigation bar. On top of that there is also a clearly visible header that says 'Letting go of a pet' where in the corresponding text below he or she will find another link to the let go page. As a bonus option the visitor can even go straight to the let go page by clicking on the 'Let go of a pet' link in the middle part of the footer.
 2. Arriving at the let go page the visitor is greeted by a piece of text that contains the information and instructions that he or she was looking for.
+
+---
 
 - As a site owner, I would like our website to have an intuitive navigation system, so that visitors can easily access all available information.
 
 1. On the top of every page is an obvious nagivation bar that is visible at all times, even when the visitor scrolls up or down. On both the homepage and the navigation bar there are direct links to all sorts of information that a visitor could be looking for. As a bonus there is also some information provided in the footer, which is visible at the bottom of every single page. The footer also contains extra links that provides visitors with even more ease of access.
+
+---
 
 - As a site owner, I would like our website to have a contact form where clients can specify their needs, so that we prevent unnecessary customer support calls.
 
@@ -236,11 +248,25 @@ I've put the CSS code from my style.css file through the [W3C CSS validator](htt
 
 ### Solved bugs
 
-placeholder text
+- When I tried (through trial & error) creating a transparent background image for the let go and about us pages, the main content kept getting transparent as well. I ended up having to use [this code snippet](https://css-tricks.com/snippets/css/transparent-background-images/) from https://css-tricks.com/ to get it working as intended.
+
+- To create a pop-up modal for my social media icons in the footer I tried to follow several different YouTube videos. I ended up liking [this solution](https://www.youtube.com/watch?v=snhpoxtLugU) by YouTube channel 'Online Tutorials', but of course I had to modify it to suit my website. That was pretty tricky, because I haven't learned Javascript yet, and most of the imporant code involved in the solution consisted of Javascript. What ended up happening first is that blurring the website also caused the pop-up to be blurred. Then I managed the pop-up to be readable, but I couldn't get either the footer or parts of the main page to be blurred at the same time. The solution I ended up figuring out was to create separate variables for all the parts of the website that needed to be blurred, so I gave them all ID's (nav-blur, main-blur, section-blur, footer-blur) linked to the variables.
+
+- When the right part of the footer got pushed down by flexbox wrap, I couldn't get it to horizontally center properly. I first used either margin or padding with 33% to get it done, but then found out that it wasn't centered on different screen sizes. Ended up deleting all of the footer media queries 1 or 2 days later and start from scratch. The first solution I came up with worked immediately, which was to give the right part of the footer a width of 100% and text align center.
+
+- My mentor pointed out that in Google Chrome devtools the console gave several errors on the homepage ([see screenshot](testing-screenshots/console-errors.png)). They were coming from the embedded YouTube video. We ended up fixing it by changing the no-cookie YouTube link to a regular YouTube link and removing some attributes.
+
+placeholder text console errors
 
 ### Known bugs
 
-placeholder text
+- During testing it appeared that the hamburger menu button didn't work on iPhones using Safari 10.0 or older.
+
+- When using Samsung Internet on an Android phone or Safari on an iPhone there are some spacing issues between several elements of the homepage ([see screenshot](testing-screenshots/SI-homepage.jpg)).
+
+- The website seems to be completely broken when using Internet Explorer.
+
+- For some mobile screen sizes the let go and about us pages are not displaying nicely in landscape mode. The block element is expanding beyond the background image ([see screenshot](testing-screenshots/landscape-issue.png)).
 
 **_[Back to top](#contents)_**
 
