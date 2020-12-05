@@ -218,7 +218,7 @@ None
 
 ## Testing
 
-A seperate file with testing information can be found [here](/linktotesting.mdfile).
+A seperate file with testing information can be found [here](TESTING.md).
 
 **_[Back to top](#contents)_**
 
