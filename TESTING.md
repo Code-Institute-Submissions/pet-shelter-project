@@ -149,7 +149,7 @@ I've put the HTML code for all pages through the [W3C markup validator](https://
 
 ![HTML validator index page warnings](testing-screenshots/HTML-validator-index.png)
 
-For the let go, about us and contact pages I got the same H1 warning that I got for the index.html page:
+The first warning is in regards to the section of the frontpage that has the embedded YouTube video in it. I don't want there to be a heading above the video, so I'm just going to argue that this warning can be ignored. The second warning is actually a funny one, it's in regards to using a H1 heading for my site logo. The W3C is actually [using that same method shemselves](testing-screenshots/W3C-H1-logo.png) and like [this article](https://wehavezeal.com/blog/web-development/2016/01/12/should-i-use-the-h1-tag-for-my-website-logo) describes, it depends on the size of the website whether that method should be used. When putting the let go, about us and contact pages through the validator I got the same H1 warning that I got for the index.html page:
 
 ![HTML validator let go page warning](testing-screenshots/HTML-validator-letgo.png)
 
