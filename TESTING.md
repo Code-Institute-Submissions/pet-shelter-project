@@ -195,7 +195,38 @@ I've put the CSS code from my style.css file through the [W3C CSS validator](htt
 
 ## Testing user stories
 
-placeholder text
+- As a visitor, I would like to see an overview of all pets that are available for adoption, so that I don't have to travel there to find out if there is anything available that I'm looking for.
+
+1. The visitor enters the homepage where he or she can immediately find a link to the adopt page in the navigation bar. On top of that there is also a clearly visible header that says 'Adopting a pet' where in the corresponding text below he or she will find another link to the adopt page. As a bonus option the visitor can even go straight to the page that shows all pets available for adoption by clicking on the 'Gallery' link in the middle part of the footer.
+2. Arriving at the adopt page the visitor is greeted by 3 cards that have obvious headers with corresponding images above. The visitor sees the 'All pets' header and in the text below it clearly states 'to have a look at all available pets just click anywhere on this card'.
+3. After clicking on the card in the adopt page or clicking on the 'gallery' link from the homepage, the visitor has arrived at the pet gallery. Here he or she is presented with a clear overview of all the pets that are available for adoption.
+
+- As a visitor, I would like to see images of all pets that are available for adoption, so that I can decide if it's worth visiting the shelter.
+
+1. The visitor enters the homepage where he or she can find a 'gallery' link in the footer, indicating that there are images to been seen.
+2. After clicking on the 'gallery' link, the visitor is taken to the pet gallery page where he or she is greeted by an overview of pet cards that all have images of the available pets.
+
+- As a visitor, I would like an easy to fill in contact form, so that I can contact the pet shelter to get answers to any questions that I have.
+
+1. The visitor enters the homepage where he or she can immediately find a clearly by colour defined link to the contact page in the navigation bar. On top of that there is also a link in the text below the 'Adopting a pet' header.
+2. Arriving at the contact page the visitor is presented with a simple contact form that has obvious labels and placeholder text that instructs the visitor what to fill in where. The labels also indicate to the visitor which of the information is a requirement. On top of that there is a dropdown menu where the visitor can easily choose his or her reason for inquiry without having to type that somewhere.
+
+- As a visitor, I would like to know the pet shelters' address information, so that I know where to travel to.
+
+1. On every single page the visitor can find the address information clearly provided on the left part of the footer.
+
+- As a visitor, I would like clear and concise information about letting go of a pet, so that I can get a good understanding of what the process is like.
+
+1. The visitor enters the homepage where he or she can immediately find a link to the let go page in the navigation bar. On top of that there is also a clearly visible header that says 'Letting go of a pet' where in the corresponding text below he or she will find another link to the let go page. As a bonus option the visitor can even go straight to the let go page by clicking on the 'Let go of a pet' link in the middle part of the footer.
+2. Arriving at the let go page the visitor is greeted by a piece of text that contains the information and instructions that he or she was looking for.
+
+- As a site owner, I would like our website to have an intuitive navigation system, so that visitors can easily access all available information.
+
+1. On the top of every page is an obvious nagivation bar that is visible at all times, even when the visitor scrolls up or down. On both the homepage and the navigation bar there are direct links to all sorts of information that a visitor could be looking for. As a bonus there is also some information provided in the footer, which is visible at the bottom of every single page. The footer also contains extra links that provides visitors with even more ease of access.
+
+- As a site owner, I would like our website to have a contact form where clients can specify their needs, so that we prevent unnecessary customer support calls.
+
+1. In the contact form the visitor is required to provide their phone number, which allows for faster and more direct communication than via email. On top of that the visitors' reasons for inquiry are narrowed down to only 4 choices, providing the site owner with a lower chance of receiving ambiguous information.
 
 **_[Back to top](#contents)_**
 
