@@ -11,6 +11,8 @@
     <title>Pet shelter - Dogs</title>
 </head>
 <body>
+
+    <!-- Navigation bar -->
     <div class="nav-container" id="nav-blur">
         <nav>
             <a class="logo-nav" href="index.html">
@@ -27,6 +29,8 @@
             </ul>
         </nav>
     </div>
+
+    <!-- Main dog gallery page content -->
     <main class="page-height-filler" id="main-blur">
         <div class="main-container-pet-gallery">
             <div class="pet-cards">
@@ -61,8 +65,11 @@
             </div>
         </div>
     </main>
+
+    <!-- Footer -->
     <footer id="footer-blur">
         <div class="footer-container">
+            <!-- Address information & phone number -->
             <div class="footer-left">
                 <div class="footer-left-header">Address</div>
                 <div class="footer-left-content">24 Southend Avenue
@@ -71,6 +78,7 @@
                     <i class="fas fa-phone-square-alt" id="phone-icon"></i>+44 077 3784 0041
                 </div>
             </div>
+            <!-- Extra internal navigation -->
             <div class="footer-middle">
                 <div class="footer-middle-header">Pets</div>
                 <div class="footer-middle-content">
@@ -80,6 +88,7 @@
                     <a href="let-go.html">Let go of a pet</a>
                 </div>
             </div>
+            <!-- Social media -->
             <div class="footer-right">
                 <div class="footer-right-header">Follow us</div>
                 <div class="footer-right-content">
@@ -89,14 +98,18 @@
                 </div>
             </div>
         </div>
+        <!-- Project disclaimer -->
         <div class="footer-disclaimer">Disclaimer: this is a fictional project!</div>
     </footer>
+
+    <!-- Pop-up modal content -->
     <!-- credits #19 (see README.md credits section) -->
     <div id="popup">
         <a onclick="toggle()"><i class="fas fa-times"></i></a>
         <h2>Fictional project</h2>
         <p>This is a fictional project, therefore there are no actual social media links. Press X to continue browsing the website.</p>
     </div>
+    <!-- Pop-up modal script -->
     <script>
         function toggle(){
             var blur = document.getElementById('nav-blur');
@@ -109,6 +122,8 @@
             popup.classList.toggle('active')
         }
     </script>
+
+    <!-- Hamburger menu script -->
     <!-- credits #8 (see README.md credits section) -->
     <script src="hamburger-menu.js"></script>
 </body>
