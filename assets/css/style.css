@@ -757,6 +757,34 @@ footer {
   }
 }
 
+@media (max-height: 440px) and (orientation: landscape) {
+  .footer-container {
+    padding: 10px 0px 10px 0px;
+  }
+  .footer-disclaimer {
+    padding: 5px 0px 10px 0px;
+  }
+}
+
+@media (max-width: 440px) and (orientation: portrait) {
+  .footer-container {
+    padding: 10px 0px 0px 0px;
+  }
+  .footer-left,
+  .footer-middle {
+    margin-bottom: 15px;
+  }
+  .footer-left-header,
+  .footer-middle-header,
+  .footer-right-header {
+    margin-bottom: 5px;
+  }
+  .footer-right-content i {
+    padding-top: 6px;
+    padding-bottom: 8px;
+  }
+}
+
 /* --- homepage --- */
 @media (max-width: 1875px) {
   .frontpage-part-one h1 {
