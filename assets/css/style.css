@@ -1176,6 +1176,96 @@ footer {
   }
 }
 
+@media (max-height: 395px) and (min-width: 750px) and (orientation: landscape) {
+  .main-container-frontpage {
+    row-gap: 2rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .frontpage-part-one p {
+    font-size: 1.8rem;
+  }
+  .frontpage-part-four p {
+    font-size: 1.5rem;
+  }
+  .why-adopt-video iframe {
+    width: 540px;
+    height: 280px;
+  }
+  .section-container-frontpage {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-height: 395px) and (max-width: 749px) and (orientation: landscape) {
+  .frontpage-part-four h2 {
+    font-size: 2.5rem;
+  }
+  .frontpage-part-four p {
+    font-size: 2rem;
+  }
+}
+
+@media (max-height: 330px) and (max-width: 580px) and (orientation: landscape) {
+  nav {
+    min-height: 50px;
+  }
+  .main-container-frontpage {
+    row-gap: 1.8rem;
+    margin-top: 8px;
+  }
+  .frontpage-part-one h1 {
+    font-size: 2.4rem;
+    padding-bottom: 6px;
+  }
+  .frontpage-part-one p {
+    font-size: 1.5rem;
+  }
+  .frontpage-part-four p {
+    font-size: 1.8rem;
+  }
+  .why-adopt-video iframe {
+    width: 460px;
+    height: 260px;
+  }
+  .section-container-frontpage {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-height: 290px) and (max-width: 660px) and (orientation: landscape) {
+  nav {
+    min-height: 50px;
+  }
+  .main-container-frontpage {
+    row-gap: 1.8rem;
+    margin-top: 8px;
+  }
+  .frontpage-part-one h1 {
+    font-size: 2.4rem;
+    padding-bottom: 6px;
+  }
+  .frontpage-part-one p {
+    font-size: 1.5rem;
+  }
+  .frontpage-part-four p {
+    font-size: 1.6rem;
+  }
+  .frontpage-four-left {
+    min-height: auto;
+  }
+  .frontpage-four-right {
+    min-height: auto;
+  }
+  .why-adopt-video iframe {
+    width: 500px;
+    height: 220px;
+  }
+  .section-container-frontpage {
+    margin-bottom: 20px;
+  }
+}
+
 /* --- adopt page --- */
 
 @media (max-width: 480px) {
@@ -1186,8 +1276,8 @@ footer {
     margin-bottom: 25px;
   }
   .adoption-card {
-    width: 360px;
-    height: 270px;
+    width: 100%;
+    height: auto;
   }
   .adoption-card h2 {
     margin-bottom: 4px;
@@ -1195,7 +1285,8 @@ footer {
     font-size: 2.2rem;
   }
   .adoption-card p {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
+    padding-bottom: 10px;
   }
   .adoption-info {
     padding: 25px 10px;
@@ -1203,17 +1294,21 @@ footer {
 }
 
 @media (max-width: 405px) {
+  .pet-circle-container {
+    width: 180px;
+    height: 180px;
+  }
   .adoption-card {
-    width: 300px;
-    height: 240px;
+    width: 100%;
+    height: auto;
   }
   .adoption-card h2 {
     margin-bottom: 2px;
     padding-top: 3px;
-    font-size: 1.8rem;
+    font-size: 2.2rem;
   }
   .adoption-card p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   .adoption-info {
     padding: 15px 6px;
@@ -1221,20 +1316,147 @@ footer {
 }
 
 @media (max-width: 330px) {
+  .pet-circle-container {
+    margin-bottom: 15px;
+  }
   .adoption-card {
-    width: 260px;
-    height: 220px;
+    width: 100%;
+    height: auto;
   }
   .adoption-card h2 {
     margin-bottom: 2px;
     padding-top: 3px;
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
   .adoption-card p {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
   }
   .adoption-info {
     padding: 10px 4px;
+  }
+}
+
+@media (max-height: 420px) and (min-width: 780px) and (orientation: landscape) {
+  .main-container-adopt {
+    width: 96%;
+  }
+  .adoption-info {
+    width: 100%;
+    flex-direction: row;
+    padding: 20px 0px;
+  }
+  .pet-circle-container {
+    width: 180px;
+    height: 180px;
+    align-self: center;
+    margin: 0 auto 20px 0px;
+  }
+  .adoption-card {
+    width: 580px;
+    height: auto;
+  }
+  .adoption-card p {
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-height: 420px) and (max-width: 750px) and (orientation: landscape) {
+  nav {
+    min-height: 50px;
+  }
+  .main-container-adopt {
+    width: 96%;
+  }
+  .adoption-info {
+    width: 100%;
+    flex-direction: row;
+    padding: 20px 0px;
+  }
+  .pet-circle-container {
+    width: 180px;
+    height: 180px;
+    align-self: center;
+    margin: 0 auto 20px 0px;
+  }
+  .adoption-card {
+    width: 480px;
+    height: auto;
+  }
+  .adoption-card p {
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-height: 385px) and (max-width: 680px) and (orientation: landscape) {
+  nav {
+    min-height: 50px;
+  }
+  .main-container-adopt {
+    width: 96%;
+  }
+  .adoption-info {
+    width: 100%;
+    flex-direction: row;
+    padding: 20px 0px;
+  }
+  .pet-circle-container {
+    width: 180px;
+    height: 180px;
+    align-self: center;
+    margin: 0 auto 20px 0px;
+  }
+  .adoption-card {
+    width: 440px;
+    height: auto;
+  }
+  .adoption-card p {
+    font-size: 1.4rem;
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-height: 365px) and (max-width: 650px) and (orientation: landscape) {
+  .adoption-info {
+    padding-bottom: 10px;
+  }
+  .adoption-card {
+    width: 400px;
+    height: auto;
+  }
+  .adoption-card h2 {
+    font-size: 2.1rem;
+    margin-bottom: 4px;
+  }
+}
+
+@media (max-height: 335px) and (max-width: 590px) and (orientation: landscape) {
+  .adoption-card {
+    width: 340px;
+    height: auto;
+  }
+  .adoption-card h2 {
+    font-size: 1.9rem;
+    margin-bottom: 3px;
+    padding-top: 3px;
+  }
+  .adoption-card p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-height: 305px) and (min-width: 590px) and (orientation: landscape) {
+  .adoption-card {
+    width: 420px;
+    height: auto;
+  }
+  .adoption-card h2 {
+    font-size: 1.9rem;
+    margin-bottom: 3px;
+    padding-top: 3px;
+  }
+  .adoption-card p {
+    font-size: 1.3rem;
   }
 }
 
@@ -1381,7 +1603,7 @@ footer {
   }
 }
 
-/* --- let go page --- */
+/* --- abous us page --- */
 
 @media (max-width: 1200px) {
   .about-page-part-one {
@@ -1408,18 +1630,25 @@ footer {
 }
 
 @media (max-width: 876px) {
-  .about-page-part-onee {
-    max-height: 80%;
+  .about-page-part-one {
+    min-width: 90%;
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
   .about-page-part-one h1 {
-    font-size: 3.2rem;
+    font-size: 3.8rem;
     padding-bottom: 8px;
   }
   .about-page-part-one p {
-    font-size: 1.5rem;
+    font-size: 2rem;
+  }
+  .main-container-about::after {
+    margin-left: 2%;
+    margin-right: 2%;
+    position: fixed;
   }
 }
-
+/*
 @media (max-width: 730px) {
   .about-page-part-one h1 {
     font-size: 2.8rem;
@@ -1481,7 +1710,7 @@ footer {
   .about-page-part-one p {
     font-size: 1rem;
   }
-}
+}*/
 
 /* --- contact page --- */
 
