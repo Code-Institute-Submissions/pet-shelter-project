@@ -12,7 +12,7 @@ This website was made as my first milestone project for the Code Institute cours
 
 ## Contents
 
-- [**User Experience Design (UXD)**](<#user-experience-design-(uxd)>)
+- [**User Experience Design (UXD)**](#user-experience-design-uxd)
 
   - [Strategy](#strategy)
     - Goal
