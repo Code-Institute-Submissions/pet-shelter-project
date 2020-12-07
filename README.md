@@ -357,7 +357,11 @@ Amelie from https://www.pexels.com/
 
 ## Notes
 
-placeholder text
+- I approached this project as a learning experience, I forced myself to use both grid and flexbox to get a better understanding of how to use them. I didn't want use Bootstrap either, so I had to do all the styling and media queries myself.
+
+- In hindsight it took too much time to finish the project, partially because I created more pages than recommended. But I feel like it was worth it for the learning experience, I could probably create a similar website now in half the time and I will benefit from this experience with my next projects.
+
+- A lot of the original media queries are probably sub-optimal or even unnecessary. Towards the end of the project I had a better grasp of how to properly do them, but I chose not to re-do them all from scratch because I don't want to fall further behind my course schedule.
 
 **_[Back to top](#contents)_**
 
