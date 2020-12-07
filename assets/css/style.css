@@ -786,6 +786,7 @@ footer {
 }
 
 /* --- homepage --- */
+
 @media (max-width: 1875px) {
   .frontpage-part-one h1 {
     font-size: 3.5rem;
@@ -1567,82 +1568,123 @@ footer {
 }
 
 @media (max-width: 876px) {
+  .main-container-let-go {
+    margin: 0px auto;
+  }
   .let-go-page-part-one {
-    max-height: 80%;
+    min-width: 90%;
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
   .let-go-page-part-one h1 {
-    font-size: 3.2rem;
+    font-size: 3.8rem;
     padding-bottom: 8px;
+  }
+  .let-go-page-part-one p {
+    font-size: 2rem;
+  }
+  .main-container-let-go::after {
+    margin-left: 2%;
+    margin-right: 2%;
+    position: fixed;
+  }
+}
+
+@media (max-width: 570px) and (orientation: portrait) {
+  .let-go-page-part-one h1 {
+    font-size: 3.2rem;
+    padding-bottom: 6px;
+  }
+  .let-go-page-part-one p {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-height: 570px) and (orientation: landscape) {
+  nav {
+    min-height: 50px;
+  }
+  .let-go-page-part-one h1 {
+    font-size: 3.4rem;
+    padding-bottom: 6px;
+  }
+  .let-go-page-part-one p {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 490px) and (orientation: portrait) {
+  .let-go-page-part-one h1 {
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 420px) and (orientation: portrait) {
+  .let-go-page-part-one h1 {
+    font-size: 2.6rem;
   }
   .let-go-page-part-one p {
     font-size: 1.5rem;
   }
 }
 
-@media (max-width: 730px) {
-  .let-go-page-part-one h1 {
-    font-size: 2.8rem;
-    padding-bottom: 6px;
+@media (max-height: 420px) and (orientation: landscape) {
+  .let-go-page-part-one {
+    min-width: 90%;
+    margin-top: 3%;
+    margin-bottom: 3%;
   }
+  .let-go-page-part-one h1 {
+    font-size: 3rem;
+  }
+  .let-go-page-part-one p {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 395px) and (orientation: portrait) {
+  .let-go-page-part-one h1 {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-height: 380px) and (max-width: 680px) and (orientation: landscape) {
+  .let-go-page-part-one {
+    min-width: 98%;
+  }
+}
+
+@media (max-width: 370px) and (orientation: portrait) {
+  .let-go-page-part-one h1 {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 340px) and (orientation: portrait) {
   .let-go-page-part-one p {
     font-size: 1.4rem;
   }
 }
 
-@media (max-width: 640px) {
-  .let-go-page-part-one h1 {
-    font-size: 2.6rem;
-    padding-bottom: 4px;
-  }
-  .let-go-page-part-one p {
-    font-size: 1.3rem;
-  }
-}
-
-@media (max-width: 554px) {
-  .let-go-page-part-one {
-    max-width: 90%;
-  }
-  .let-go-page-part-one h1 {
-    font-size: 2.2rem;
-    padding-bottom: 3px;
-  }
-  .let-go-page-part-one p {
-    font-size: 1.2rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .let-go-page-part-one {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-}
-
-@media (max-width: 427px) {
-  .let-go-page-part-one {
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
+@media (max-width: 330px) and (orientation: portrait) {
   .let-go-page-part-one h1 {
     font-size: 2rem;
-    padding-bottom: 2px;
-  }
-  .let-go-page-part-one p {
-    font-size: 1.1rem;
   }
 }
 
-@media (max-width: 340px) {
+@media (max-width: 300px) and (orientation: portrait) {
   .let-go-page-part-one h1 {
     font-size: 1.8rem;
   }
-  .let-go-page-part-one p {
-    font-size: 1rem;
+}
+
+@media (max-height: 300px) and (orientation: landscape) {
+  .let-go-page-part-one h1 {
+    font-size: 2.6rem;
   }
 }
 
-/* --- abous us page --- */
+/* --- about us page --- */
 
 @media (max-width: 1200px) {
   .about-page-part-one {
@@ -1669,6 +1711,9 @@ footer {
 }
 
 @media (max-width: 876px) {
+  .main-container-about {
+    margin: 0px auto;
+  }
   .about-page-part-one {
     min-width: 90%;
     margin-top: 5%;
@@ -1687,69 +1732,108 @@ footer {
     position: fixed;
   }
 }
-/*
-@media (max-width: 730px) {
+
+@media (max-width: 570px) and (orientation: portrait) {
   .about-page-part-one h1 {
-    font-size: 2.8rem;
+    font-size: 3.2rem;
     padding-bottom: 6px;
   }
+  .about-page-part-one p {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-height: 570px) and (orientation: landscape) {
+  nav {
+    min-height: 50px;
+  }
+  .about-page-part-one h1 {
+    font-size: 3.4rem;
+    padding-bottom: 6px;
+  }
+  .about-page-part-one p {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 490px) and (orientation: portrait) {
+  .about-page-part-one h1 {
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 420px) and (orientation: portrait) {
+  .about-page-part-one h1 {
+    font-size: 2.6rem;
+  }
+  .about-page-part-one p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-height: 420px) and (orientation: landscape) {
+  .about-page-part-one {
+    min-width: 90%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+  .about-page-part-one h1 {
+    font-size: 2.9rem;
+    padding-bottom: 2px;
+  }
+  .about-page-part-one p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 395px) and (orientation: portrait) {
+  .main-container-about::after {
+    opacity: 0.2;
+  }
+  .about-page-part-one h1 {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-height: 380px) and (max-width: 680px) and (orientation: landscape) {
+  .about-page-part-one {
+    min-width: 98%;
+  }
+}
+
+@media (max-width: 370px) and (orientation: portrait) {
+  .about-page-part-one h1 {
+    font-size: 2.2rem;
+    padding-bottom: 2px;
+  }
+  .about-page-part-one p {
+    padding: 0 6px 10px 6px;
+  }
+}
+
+@media (max-width: 340px) and (orientation: portrait) {
   .about-page-part-one p {
     font-size: 1.4rem;
   }
 }
 
-@media (max-width: 640px) {
-  .about-page-part-one h1 {
-    font-size: 2.6rem;
-    padding-bottom: 4px;
-  }
-  .about-page-part-one p {
-    font-size: 1.3rem;
-  }
-}
-
-@media (max-width: 554px) {
-  .about-page-part-one {
-    max-width: 90%;
-  }
-  .about-page-part-one h1 {
-    font-size: 2.2rem;
-    padding-bottom: 3px;
-  }
-  .about-page-part-one p {
-    font-size: 1.2rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .about-page-part-one {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-}
-
-@media (max-width: 427px) {
-  .about-page-part-one {
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
+@media (max-width: 330px) and (orientation: portrait) {
   .about-page-part-one h1 {
     font-size: 2rem;
-    padding-bottom: 2px;
-  }
-  .about-page-part-one p {
-    font-size: 1.1rem;
   }
 }
 
-@media (max-width: 340px) {
+@media (max-width: 300px) and (orientation: portrait) {
   .about-page-part-one h1 {
     font-size: 1.8rem;
   }
-  .about-page-part-one p {
-    font-size: 1rem;
+}
+
+@media (max-height: 300px) and (orientation: landscape) {
+  .about-page-part-one h1 {
+    font-size: 2.6rem;
   }
-}*/
+}
 
 /* --- contact page --- */
 
