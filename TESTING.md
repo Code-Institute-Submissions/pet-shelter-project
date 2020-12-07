@@ -115,7 +115,7 @@ Everything is working and displaying as intended, no spacing issues on the homep
 
 ## Mobile responsiveness
 
-To test the website for mobile responsiveness I've been using the [Google Chrome devtools](testing-screenshots/chrome-devtools.png) throughout the coding of the media queries. I manually used the sliders to go through different screen sizes. I've also used all of the [pre-configured screen sizes](testing-screenshots/devtools-phones.png) in the devtools to test if things looked okay. The only issue that I found is that for some phone screen sizes the landscape mode is kind of zoomed in or sub-optimal looking, while on other phone screen sizes it looks perfectly fine.
+To test the website for mobile responsiveness I've been using the [Google Chrome devtools](testing-screenshots/chrome-devtools.png) throughout the coding of the media queries. I manually used the sliders to go through different screen sizes. I've also used all of the [pre-configured screen sizes](testing-screenshots/devtools-phones.png) in the devtools to test if things looked okay.
 
 **_[Back to top](#contents)_**
 
@@ -256,15 +256,15 @@ I've put the CSS code from my style.css file through the [W3C CSS validator](htt
 
 - My mentor pointed out that in Google Chrome devtools the console gave several errors on the homepage ([see screenshot](testing-screenshots/console-errors.png)). They were coming from the embedded YouTube video. We ended up fixing it by changing the no-cookie YouTube link to a regular YouTube link and removing some attributes.
 
+- For some phone screen sizes in landscape mode everything looked kind of zoomed in or sub-optimal ([see screenshot](testing-screenshots/landscape-issue.png)), especially on the let go and about us pages, while on other phone screen sizes it looked perfectly fine. My mentor reminded me of the option to target landscape mode specifically in the media queries, so I went through the whole website and improved all pages mobile responsiveness.
+
 ### Known bugs
 
 - During testing it appeared that the hamburger menu button didn't work on iPhones using Safari 10.0 or older.
 
 - When using Samsung Internet on an Android phone or Safari on an iPhone there are some spacing issues between several elements of the homepage ([see screenshot](testing-screenshots/SI-homepage.jpg)).
 
-- The website seems to be completely broken when using Internet Explorer.
-
-- For some mobile screen sizes the let go and about us pages are not displaying nicely in landscape mode. The block element is expanding beyond the background image ([see screenshot](testing-screenshots/landscape-issue.png)).
+- The website seems to be completely broken when using Internet Explorer. (see [example 1](testing-screenshots/IE-homepage.png) and [example 2](testing-screenshots/IE-contact.png))
 
 **_[Back to top](#contents)_**
 

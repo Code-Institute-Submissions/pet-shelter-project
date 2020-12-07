@@ -113,7 +113,7 @@ The shape of the website will be pretty standard: a navigation bar at the top, t
 
 #### Wireframes
 
-To see the wireframes in PDF click [here](wireframes/pet-shelter-wireframes.pdf).
+To see the wireframes in PDF click [here](wireframes/pet-shelter-wireframes.pdf). (download and zoom out for best view)
 
 ### Surface
 
@@ -316,7 +316,7 @@ Amelie from https://www.pexels.com/
 
 ### Miscellaneous
 
-- Used https://coolors.co/ to create an image of my colour palette (see 'Surface' section of the README).
+- Used https://coolors.co/ to create an image of my colour palette (see ['Surface'](#surface) section of the README).
 
 - Referenced [this online explanation](https://stackoverflow.com/questions/11488960/how-do-i-put-my-websites-logo-to-be-the-icon-image-in-browser-tabs) from https://stackoverflow.com/ to figure out how to add a favicon to my browser tabs.
 
@@ -326,7 +326,7 @@ Amelie from https://www.pexels.com/
 
 ### Acknowledgements
 
-- My mentor, Rohit Sharma, for his guidance and advice throughout the project.
+- Thanks to my mentor, Rohit Sharma, for his guidance and advice throughout the project.
 
 **_[Back to top](#contents)_**
 
