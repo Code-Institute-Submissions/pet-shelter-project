@@ -231,7 +231,17 @@ A seperate file with testing information can be found [here](TESTING.md).
 
 ### Hosting online
 
-placeholder text
+This project was hosted to [GitHub Pages](https://pages.github.com/) with the following steps:
+
+1. Log into [GitHub](https://github.com/login).
+2. Go to [your repositories](deployment-guide/your-repos.png).
+3. Click on the repository that you'd like to host.
+4. From the menu tabs click on [settings](deployment-guide/repo-settings.png).
+5. Scroll down to the GitHub Pages section.
+6. Select the [main branch](deployment-guide/branch.png) and press save.
+7. Scroll back down to the GitHub Pages section.
+8. Find your [published website link](deployment-guide/site-link.png) there.
+9. The website should now be deployed after a couple of minutes. (GitHub says processing can take up to 20 minutes)
 
 ### Running locally
 
