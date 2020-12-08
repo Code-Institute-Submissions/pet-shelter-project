@@ -69,7 +69,7 @@ This website was made as my first milestone project for the Code Institute cours
 
 The goals for the (fictional) website owner would be to raise more awareness of their existence, get more people to know that they exist. This would result in more clients and therefore possibly more income. Another goal that this website would accomplish is better and more efficient contact between them and their clients.
 
-The goal in regards to users is to provide them a website to allow for easy access to information, provide clear and simple contact details and show an overview of all pets that are available for adoption.
+The goal in regard to users is to provide them a website to allow for easy access to information, provide clear and simple contact details and show an overview of all pets that are available for adoption.
 
 #### User stories
 
@@ -91,11 +91,11 @@ The goal in regards to users is to provide them a website to allow for easy acce
 
 #### Functional specifications
 
-The website should have a navigation bar. When the user clicks on the logo it should go back to the homepage. Content on the website should support different screensizes. Wherever appropriate and or possible, visible indicators should be shown to users when they can perform an action on the website (like clicking a link or a button).
+The website should have a navigation bar. When the user clicks on the logo it should go back to the homepage. Content on the website should support different screen sizes. Wherever appropriate and or possible, visible indicators should be shown to users when they can perform an action on the website (like clicking a link or a button).
 
 #### Content requirements
 
-The website needs to provide information about: the pet shelter, the process of adopting a pet and the process of letting go of a pet. The website needs to provide address and contact information. The website needs a seperate contact form where clients can specify their needs. The website needs a page that shows all pets that are available for adoption.
+The website needs to provide information about: the pet shelter, the process of adopting a pet and the process of letting go of a pet. The website needs to provide address and contact information. The website needs a separate contact form where clients can specify their needs. The website needs a page that shows all pets that are available for adoption.
 
 ### Structure
 
@@ -105,11 +105,11 @@ The website uses what I would call a 'spider web structure', where every page is
 
 #### Interaction design
 
-Users can use the clickable elements in the navigation bar to browse through the website. Some visible indicators will tell the user at which page they currently are, while other visible indicators will alert users when they are hovering a link. Users with touchscreens can swipe up and down to scroll through the web pages and they can (double)tap to open links and browse through the website. The embedded YouTube video on the frontpage can be started with a single tap or click, audio control is integrated in the YouTube player, so users can mute the audio or change the volume in there.
+Users can use the clickable elements in the navigation bar to browse through the website. Some visible indicators will tell the user at which page they currently are, while other visible indicators will alert users when they are hovering a link. Users with touchscreens can swipe up and down to scroll through the web pages and they can (double)tap to open links and browse through the website. The embedded YouTube video on the homepage can be started with a single tap or click, audio control is integrated in the YouTube player, so users can mute the audio or change the volume in there.
 
 ### Skeleton
 
-The shape of the website will be pretty standard: a navigation bar at the top, the main content in the middle and a footer with some address info, extra navigation links and social media links at the bottom. The users will be able to get around the website by using the navigation bar, which will also have a clickable logo to go back to the frontpage. Users will also be able to use some more direct links in the footer to pages that are not presented in the navigation bar (for instance: sub categories for pet adoption). Most of the content will be presented in a grid-style layout. On smaller screensizes the layout will transform to a smaller number of columns to ensure readability and prevent deformations.
+The shape of the website will be pretty standard: a navigation bar at the top, the main content in the middle and a footer with some address info, extra navigation links and social media links at the bottom. The users will be able to get around the website by using the navigation bar, which will also have a clickable logo to go back to the homepage. Users will also be able to use some more direct links in the footer to pages that are not presented in the navigation bar (for instance: sub categories for pet adoption). Most of the content will be presented in a grid-style layout. On smaller screen sizes the layout will transform to a smaller number of columns to ensure readability and prevent deformations.
 
 #### Wireframes
 
@@ -129,7 +129,7 @@ I'm currently using the font-style 'Montserrat' from the Google Fonts library th
 
 #### Uniformity
 
-To keep the website looking uniform I'm trying to making sure that all related contents throughout the website are consistent in font size and styling. The positioning of elements should be consistent in height, padding and spacing. I'm also using either grid, flexbox or both to present the content in a logical order.
+To keep the website looking uniform I'm trying to make sure that all related contents throughout the website are consistent in font size and styling. The positioning of elements should be consistent in height, padding and spacing. I'm also using either grid, flexbox or both to present the content in a logical order.
 
 **_[Back to top](#contents)_**
 
@@ -221,7 +221,7 @@ None
 
 ## Testing
 
-A seperate file with testing information can be found [here](TESTING.md).
+A separate file with testing information can be found [here](TESTING.md).
 
 **_[Back to top](#contents)_**
 
@@ -231,7 +231,7 @@ A seperate file with testing information can be found [here](TESTING.md).
 
 ### Hosting online
 
-This project was hosted to [GitHub Pages](https://pages.github.com/) with the following steps:
+This project was hosted on [GitHub Pages](https://pages.github.com/) with the following steps:
 
 1. Log into [GitHub](https://github.com/login).
 2. Go to [your repositories](deployment-guide/your-repos.png).
@@ -357,7 +357,7 @@ Amelie from https://www.pexels.com/
 
 ## Notes
 
-- I approached this project as a learning experience, I forced myself to use both grid and flexbox to get a better understanding of how to use them. I didn't want use Bootstrap either, so I had to do all the styling and media queries myself.
+- I approached this project as a learning experience, I forced myself to use both grid and flexbox to get a better understanding of how to use them. I didn't want to use Bootstrap either, so I had to do all the styling and media queries myself.
 
 - In hindsight it took too much time to finish the project, partially because I created more pages than recommended. But I feel like it was worth it for the learning experience, I could probably create a similar website now in half the time and I will benefit from this experience with my next projects.
 
